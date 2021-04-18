@@ -1,0 +1,108 @@
+C:\Users\samth\Desktop\OcelotExample\KioskApi\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.dll
+C:\Users\samth\Desktop\OcelotExample\KioskApi\AuthServer\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\samth\Desktop\OcelotExample\KioskApi\AuthServer\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\samth\Desktop\OcelotExample\KioskApi\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.deps.json
+C:\Users\samth\Desktop\OcelotExample\KioskApi\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.runtimeconfig.json
+C:\Users\samth\Desktop\OcelotExample\KioskApi\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.runtimeconfig.dev.json
+C:\Users\samth\Desktop\OcelotExample\KioskApi\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.csprojAssemblyReference.cache
+C:\Users\samth\Desktop\OcelotExample\KioskApi\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.AssemblyInfoInputs.cache
+C:\Users\samth\Desktop\OcelotExample\KioskApi\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.AssemblyInfo.cs
+C:\Users\samth\Desktop\OcelotExample\KioskApi\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.csproj.CoreCompileInputs.cache
+C:\Users\samth\Desktop\OcelotExample\KioskApi\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.dll
+C:\Users\samth\Desktop\OcelotExample\KioskApi\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.pdb
+C:\Users\samth\Desktop\OcelotExample\KioskApi\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.genruntimeconfig.cache
+C:\Users\samth\Desktop\OcelotExample\KioskApi\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.pdb
+C:\Users\samth\source\repos\CHQPNT\AuthServer\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\samth\source\repos\CHQPNT\AuthServer\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\samth\source\repos\CHQPNT\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.deps.json
+C:\Users\samth\source\repos\CHQPNT\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.runtimeconfig.json
+C:\Users\samth\source\repos\CHQPNT\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.runtimeconfig.dev.json
+C:\Users\samth\source\repos\CHQPNT\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.dll
+C:\Users\samth\source\repos\CHQPNT\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.pdb
+C:\Users\samth\source\repos\CHQPNT\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.AssemblyInfoInputs.cache
+C:\Users\samth\source\repos\CHQPNT\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.AssemblyInfo.cs
+C:\Users\samth\source\repos\CHQPNT\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.csproj.CoreCompileInputs.cache
+C:\Users\samth\source\repos\CHQPNT\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.dll
+C:\Users\samth\source\repos\CHQPNT\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.pdb
+C:\Users\samth\source\repos\CHQPNT\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.genruntimeconfig.cache
+C:\Users\samth\Desktop\OcelotExample\Smart Kiosk\AuthServer\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\samth\Desktop\OcelotExample\Smart Kiosk\AuthServer\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\samth\Desktop\OcelotExample\Smart Kiosk\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.deps.json
+C:\Users\samth\Desktop\OcelotExample\Smart Kiosk\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.runtimeconfig.json
+C:\Users\samth\Desktop\OcelotExample\Smart Kiosk\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.runtimeconfig.dev.json
+C:\Users\samth\Desktop\OcelotExample\Smart Kiosk\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.dll
+C:\Users\samth\Desktop\OcelotExample\Smart Kiosk\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.pdb
+C:\Users\samth\Desktop\OcelotExample\Smart Kiosk\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.AssemblyInfoInputs.cache
+C:\Users\samth\Desktop\OcelotExample\Smart Kiosk\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.AssemblyInfo.cs
+C:\Users\samth\Desktop\OcelotExample\Smart Kiosk\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.csproj.CoreCompileInputs.cache
+C:\Users\samth\Desktop\OcelotExample\Smart Kiosk\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.dll
+C:\Users\samth\Desktop\OcelotExample\Smart Kiosk\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.pdb
+C:\Users\samth\Desktop\OcelotExample\Smart Kiosk\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.genruntimeconfig.cache
+C:\Users\samth\Desktop\OcelotExample\SmartKioakAPI\AuthServer\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\samth\Desktop\OcelotExample\SmartKioakAPI\AuthServer\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\samth\Desktop\OcelotExample\SmartKioakAPI\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.deps.json
+C:\Users\samth\Desktop\OcelotExample\SmartKioakAPI\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.runtimeconfig.json
+C:\Users\samth\Desktop\OcelotExample\SmartKioakAPI\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.runtimeconfig.dev.json
+C:\Users\samth\Desktop\OcelotExample\SmartKioakAPI\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.dll
+C:\Users\samth\Desktop\OcelotExample\SmartKioakAPI\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.pdb
+C:\Users\samth\Desktop\OcelotExample\SmartKioakAPI\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.AssemblyInfoInputs.cache
+C:\Users\samth\Desktop\OcelotExample\SmartKioakAPI\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.AssemblyInfo.cs
+C:\Users\samth\Desktop\OcelotExample\SmartKioakAPI\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.csproj.CoreCompileInputs.cache
+C:\Users\samth\Desktop\OcelotExample\SmartKioakAPI\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.dll
+C:\Users\samth\Desktop\OcelotExample\SmartKioakAPI\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.pdb
+C:\Users\samth\Desktop\OcelotExample\SmartKioakAPI\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.genruntimeconfig.cache
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\AuthServer\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\AuthServer\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.deps.json
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.runtimeconfig.json
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.runtimeconfig.dev.json
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.dll
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.pdb
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.AssemblyInfoInputs.cache
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.AssemblyInfo.cs
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.csproj.CoreCompileInputs.cache
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.dll
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.pdb
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.genruntimeconfig.cache
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.csprojAssemblyReference.cache
+C:\Users\samth\source\repos\MpesaApi\AuthServer\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\samth\source\repos\MpesaApi\AuthServer\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\samth\source\repos\MpesaApi\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.deps.json
+C:\Users\samth\source\repos\MpesaApi\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.runtimeconfig.json
+C:\Users\samth\source\repos\MpesaApi\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.runtimeconfig.dev.json
+C:\Users\samth\source\repos\MpesaApi\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.dll
+C:\Users\samth\source\repos\MpesaApi\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.pdb
+C:\Users\samth\source\repos\MpesaApi\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.csprojAssemblyReference.cache
+C:\Users\samth\source\repos\MpesaApi\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.AssemblyInfoInputs.cache
+C:\Users\samth\source\repos\MpesaApi\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.AssemblyInfo.cs
+C:\Users\samth\source\repos\MpesaApi\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.csproj.CoreCompileInputs.cache
+C:\Users\samth\source\repos\MpesaApi\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.dll
+C:\Users\samth\source\repos\MpesaApi\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.pdb
+C:\Users\samth\source\repos\MpesaApi\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.genruntimeconfig.cache
+D:\Payments\MpesaApi\AuthServer\bin\Debug\netcoreapp2.0\appsettings.json
+D:\Payments\MpesaApi\AuthServer\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+D:\Payments\MpesaApi\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.deps.json
+D:\Payments\MpesaApi\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.runtimeconfig.json
+D:\Payments\MpesaApi\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.runtimeconfig.dev.json
+D:\Payments\MpesaApi\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.dll
+D:\Payments\MpesaApi\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.pdb
+D:\Payments\MpesaApi\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.csprojAssemblyReference.cache
+D:\Payments\MpesaApi\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.AssemblyInfoInputs.cache
+D:\Payments\MpesaApi\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.AssemblyInfo.cs
+D:\Payments\MpesaApi\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.dll
+D:\Payments\MpesaApi\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.pdb
+D:\Payments\MpesaApi\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.genruntimeconfig.cache
+D:\Great Vision\MpesaApi\AuthServer\bin\Debug\netcoreapp2.0\appsettings.json
+D:\Great Vision\MpesaApi\AuthServer\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+D:\Great Vision\MpesaApi\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.deps.json
+D:\Great Vision\MpesaApi\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.runtimeconfig.json
+D:\Great Vision\MpesaApi\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.runtimeconfig.dev.json
+D:\Great Vision\MpesaApi\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.dll
+D:\Great Vision\MpesaApi\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.pdb
+D:\Great Vision\MpesaApi\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.csprojAssemblyReference.cache
+D:\Great Vision\MpesaApi\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.AssemblyInfoInputs.cache
+D:\Great Vision\MpesaApi\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.AssemblyInfo.cs
+D:\Great Vision\MpesaApi\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.csproj.CoreCompileInputs.cache
+D:\Great Vision\MpesaApi\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.dll
+D:\Great Vision\MpesaApi\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.pdb
+D:\Great Vision\MpesaApi\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.genruntimeconfig.cache

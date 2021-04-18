@@ -1,0 +1,69 @@
+D:\Payments\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Payments\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Payments\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Payments\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\AuthMpesaApi.exe
+D:\Payments\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\libman.json
+D:\Payments\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\C2BMpesaAPI.exe
+D:\Payments\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\C2BMpesaAPI.deps.json
+D:\Payments\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\C2BMpesaAPI.runtimeconfig.json
+D:\Payments\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\C2BMpesaAPI.runtimeconfig.dev.json
+D:\Payments\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\C2BMpesaAPI.dll
+D:\Payments\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\C2BMpesaAPI.pdb
+D:\Payments\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\Payments\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Payments\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\MediatR.dll
+D:\Payments\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\Payments\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\Payments\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Payments\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\RestSharp.dll
+D:\Payments\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\Payments\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Payments\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Payments\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\AuthMpesaApi.dll
+D:\Payments\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\AuthMpesaApi.pdb
+D:\Payments\MpesaApi\C2BMpesaAPI\obj\Debug\netcoreapp3.1\C2BMpesaAPI.csprojAssemblyReference.cache
+D:\Payments\MpesaApi\C2BMpesaAPI\obj\Debug\netcoreapp3.1\C2BMpesaAPI.AssemblyInfoInputs.cache
+D:\Payments\MpesaApi\C2BMpesaAPI\obj\Debug\netcoreapp3.1\C2BMpesaAPI.AssemblyInfo.cs
+D:\Payments\MpesaApi\C2BMpesaAPI\obj\Debug\netcoreapp3.1\C2BMpesaAPI.RazorTargetAssemblyInfo.cache
+D:\Payments\MpesaApi\C2BMpesaAPI\obj\Debug\netcoreapp3.1\C2BMpesaAPI.csproj.CopyComplete
+D:\Payments\MpesaApi\C2BMpesaAPI\obj\Debug\netcoreapp3.1\staticwebassets\C2BMpesaAPI.StaticWebAssets.Manifest.cache
+D:\Payments\MpesaApi\C2BMpesaAPI\obj\Debug\netcoreapp3.1\staticwebassets\C2BMpesaAPI.StaticWebAssets.xml
+D:\Payments\MpesaApi\C2BMpesaAPI\obj\Debug\netcoreapp3.1\C2BMpesaAPI.dll
+D:\Payments\MpesaApi\C2BMpesaAPI\obj\Debug\netcoreapp3.1\C2BMpesaAPI.pdb
+D:\Payments\MpesaApi\C2BMpesaAPI\obj\Debug\netcoreapp3.1\C2BMpesaAPI.genruntimeconfig.cache
+D:\Great Vision\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Great Vision\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Great Vision\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Great Vision\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\libman.json
+D:\Great Vision\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\AuthMpesaApi.exe
+D:\Great Vision\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\C2BMpesaAPI.exe
+D:\Great Vision\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\C2BMpesaAPI.deps.json
+D:\Great Vision\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\C2BMpesaAPI.runtimeconfig.json
+D:\Great Vision\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\C2BMpesaAPI.runtimeconfig.dev.json
+D:\Great Vision\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\C2BMpesaAPI.dll
+D:\Great Vision\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\C2BMpesaAPI.pdb
+D:\Great Vision\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\Great Vision\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Great Vision\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\MediatR.dll
+D:\Great Vision\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\Great Vision\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\Great Vision\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Great Vision\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\RestSharp.dll
+D:\Great Vision\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\Great Vision\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Great Vision\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Great Vision\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\AuthMpesaApi.dll
+D:\Great Vision\MpesaApi\C2BMpesaAPI\bin\Debug\netcoreapp3.1\AuthMpesaApi.pdb
+D:\Great Vision\MpesaApi\C2BMpesaAPI\obj\Debug\netcoreapp3.1\C2BMpesaAPI.csprojAssemblyReference.cache
+D:\Great Vision\MpesaApi\C2BMpesaAPI\obj\Debug\netcoreapp3.1\C2BMpesaAPI.AssemblyInfoInputs.cache
+D:\Great Vision\MpesaApi\C2BMpesaAPI\obj\Debug\netcoreapp3.1\C2BMpesaAPI.AssemblyInfo.cs
+D:\Great Vision\MpesaApi\C2BMpesaAPI\obj\Debug\netcoreapp3.1\C2BMpesaAPI.csproj.CoreCompileInputs.cache
+D:\Great Vision\MpesaApi\C2BMpesaAPI\obj\Debug\netcoreapp3.1\C2BMpesaAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Great Vision\MpesaApi\C2BMpesaAPI\obj\Debug\netcoreapp3.1\C2BMpesaAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Great Vision\MpesaApi\C2BMpesaAPI\obj\Debug\netcoreapp3.1\C2BMpesaAPI.RazorTargetAssemblyInfo.cache
+D:\Great Vision\MpesaApi\C2BMpesaAPI\obj\Debug\netcoreapp3.1\C2BMpesaAPI.csproj.CopyComplete
+D:\Great Vision\MpesaApi\C2BMpesaAPI\obj\Debug\netcoreapp3.1\staticwebassets\C2BMpesaAPI.StaticWebAssets.Manifest.cache
+D:\Great Vision\MpesaApi\C2BMpesaAPI\obj\Debug\netcoreapp3.1\staticwebassets\C2BMpesaAPI.StaticWebAssets.xml
+D:\Great Vision\MpesaApi\C2BMpesaAPI\obj\Debug\netcoreapp3.1\C2BMpesaAPI.dll
+D:\Great Vision\MpesaApi\C2BMpesaAPI\obj\Debug\netcoreapp3.1\C2BMpesaAPI.pdb
+D:\Great Vision\MpesaApi\C2BMpesaAPI\obj\Debug\netcoreapp3.1\C2BMpesaAPI.genruntimeconfig.cache

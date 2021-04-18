@@ -1,0 +1,893 @@
+2020-06-07 13:18:38.5239||INFO|IdentityServer4.Startup|You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2020-06-07 13:19:29.9011||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/aq/Account   
+2020-06-07 13:19:30.0306||ERROR|Ocelot.Authentication.Middleware.AuthenticationMiddleware|Client has NOT been authenticated for /api/aq/Account and pipeline error set. Error Code: UnauthenticatedError Message: Request for authenticated route /api/aq/Account by  was unauthenticated : OcelotRequestId - not set 
+2020-06-07 13:19:30.0306||ERROR|Ocelot.Responder.Middleware.ResponderMiddleware|1 pipeline errors found in ResponderMiddleware. Setting error response status code : OcelotRequestId - not set 
+2020-06-07 13:19:30.0743||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 195.4966ms 401  
+2020-06-07 13:19:30.1263||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 13:19:30.2753||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 149.0418ms 200 application/json; charset=utf-8 
+2020-06-07 13:19:30.4782||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/aq/Account   
+2020-06-07 13:19:30.5247||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 13:19:30.5292||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:19:30.5510||ERROR|Ocelot.Errors.Middleware.ExceptionHandlerMiddleware|Exception caught in global error handler, exception message: Object reference not set to an instance of an object., exception stack:    at Ocelot.Responder.HttpContextResponder.SetResponseOnHttpContext(HttpContext context, HttpResponseMessage response)
+   at Ocelot.Responder.Middleware.ResponderMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) RequestId: 0HM0APH1QNJUC:00000002 : OcelotRequestId - not set 
+2020-06-07 13:19:30.5510||ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM0APH1QNJUC", Request id "0HM0APH1QNJUC:00000002": An unhandled exception was thrown by the application. StatusCode cannot be set because the response has already started.
+2020-06-07 13:19:30.5510||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 80.177ms 999  
+2020-06-07 13:19:48.9243||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/aq/Account   
+2020-06-07 13:19:48.9243||ERROR|Ocelot.Authentication.Middleware.AuthenticationMiddleware|Client has NOT been authenticated for /api/aq/Account and pipeline error set. Error Code: UnauthenticatedError Message: Request for authenticated route /api/aq/Account by  was unauthenticated : OcelotRequestId - not set 
+2020-06-07 13:19:48.9243||ERROR|Ocelot.Responder.Middleware.ResponderMiddleware|1 pipeline errors found in ResponderMiddleware. Setting error response status code : OcelotRequestId - not set 
+2020-06-07 13:19:48.9243||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.5972ms 401  
+2020-06-07 13:19:50.4693||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 13:19:50.4693||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.1012ms 200 application/json; charset=utf-8 
+2020-06-07 13:19:52.8779||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/aq/Account   
+2020-06-07 13:19:52.8779||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 13:19:52.8779||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:19:52.8779||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:19:52.9171||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 39.2416ms 200 application/json; charset=utf-8 
+2020-06-07 13:19:57.1783||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 13:19:57.1783||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.6176ms 200 application/json; charset=utf-8 
+2020-06-07 13:19:57.8147||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/Account/1088750011   
+2020-06-07 13:19:57.8147||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 13:19:57.8147||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:19:57.8147||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:19:59.3858||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1571.1272ms 200 application/json; charset=utf-8 
+2020-06-07 13:20:01.2349||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 13:20:01.2349||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.4398ms 200 application/json; charset=utf-8 
+2020-06-07 13:20:02.0794||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/SendCheque   
+2020-06-07 13:20:02.0794||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 13:20:02.0794||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:20:02.0794||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:20:06.1122||ERROR|Ocelot.Responder.Middleware.ResponderMiddleware|1 pipeline errors found in ResponderMiddleware. Setting error response status code : OcelotRequestId - not set 
+2020-06-07 13:20:06.1122||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4033.7114ms 404  
+2020-06-07 13:32:00.5160||INFO|IdentityServer4.Startup|You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2020-06-07 13:32:57.2995||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/aq/Account   
+2020-06-07 13:32:57.4167||ERROR|Ocelot.Authentication.Middleware.AuthenticationMiddleware|Client has NOT been authenticated for /api/aq/Account and pipeline error set. Error Code: UnauthenticatedError Message: Request for authenticated route /api/aq/Account by  was unauthenticated : OcelotRequestId - not set 
+2020-06-07 13:32:57.4210||ERROR|Ocelot.Responder.Middleware.ResponderMiddleware|1 pipeline errors found in ResponderMiddleware. Setting error response status code : OcelotRequestId - not set 
+2020-06-07 13:32:57.4574||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 163.9896ms 401  
+2020-06-07 13:33:02.4346||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 13:33:03.1380||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 703.3554ms 200 application/json; charset=utf-8 
+2020-06-07 13:33:06.6198||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/aq/Account   
+2020-06-07 13:33:06.6636||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 13:33:06.6636||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:33:06.6704||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:33:06.7178||ERROR|Ocelot.Errors.Middleware.ExceptionHandlerMiddleware|Exception caught in global error handler, exception message: Invalid URI: The hostname could not be parsed., exception stack:    at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at System.UriBuilder.get_Uri()
+   at Ocelot.LoadBalancer.Middleware.LoadBalancingMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.QueryStrings.Middleware.QueryStringBuilderMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Headers.Middleware.HttpRequestHeadersBuilderMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Authorisation.Middleware.AuthorisationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Claims.Middleware.ClaimsBuilderMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Authentication.Middleware.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.RequestId.Middleware.RequestIdMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Request.Middleware.DownstreamRequestInitialiserMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Responder.Middleware.ResponderMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) RequestId: 0HM0APOIER7DR:00000002 : OcelotRequestId - not set 
+2020-06-07 13:33:06.7178||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 98.6279ms 500  
+2020-06-07 13:33:23.8624||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 13:33:23.8624||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.6131ms 200 application/json; charset=utf-8 
+2020-06-07 13:33:24.3012||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/Account/1088750011   
+2020-06-07 13:33:24.3012||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 13:33:24.3012||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:33:24.3012||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:33:26.0336||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1732.4737ms 200 application/json; charset=utf-8 
+2020-06-07 13:33:32.5818||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 13:33:32.5818||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.9951ms 200 application/json; charset=utf-8 
+2020-06-07 13:33:33.4449||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/SendCheque   
+2020-06-07 13:33:33.4449||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 13:33:33.4449||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:33:33.4449||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:33:37.4651||ERROR|Ocelot.Responder.Middleware.ResponderMiddleware|1 pipeline errors found in ResponderMiddleware. Setting error response status code : OcelotRequestId - not set 
+2020-06-07 13:33:37.4651||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4021.2304ms 404  
+2020-06-07 13:33:58.8609||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/aq/Account   
+2020-06-07 13:33:58.8609||ERROR|Ocelot.Authentication.Middleware.AuthenticationMiddleware|Client has NOT been authenticated for /api/aq/Account and pipeline error set. Error Code: UnauthenticatedError Message: Request for authenticated route /api/aq/Account by  was unauthenticated : OcelotRequestId - not set 
+2020-06-07 13:33:58.8609||ERROR|Ocelot.Responder.Middleware.ResponderMiddleware|1 pipeline errors found in ResponderMiddleware. Setting error response status code : OcelotRequestId - not set 
+2020-06-07 13:33:58.8609||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.3948ms 401  
+2020-06-07 13:33:59.9549||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 13:33:59.9549||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.6662ms 200 application/json; charset=utf-8 
+2020-06-07 13:34:00.9769||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/aq/Account   
+2020-06-07 13:34:00.9769||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 13:34:00.9769||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:34:00.9769||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:34:00.9769||ERROR|Ocelot.Errors.Middleware.ExceptionHandlerMiddleware|Exception caught in global error handler, exception message: Invalid URI: The hostname could not be parsed., exception stack:    at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at System.UriBuilder.get_Uri()
+   at Ocelot.LoadBalancer.Middleware.LoadBalancingMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.QueryStrings.Middleware.QueryStringBuilderMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Headers.Middleware.HttpRequestHeadersBuilderMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Authorisation.Middleware.AuthorisationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Claims.Middleware.ClaimsBuilderMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Authentication.Middleware.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.RequestId.Middleware.RequestIdMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Request.Middleware.DownstreamRequestInitialiserMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Responder.Middleware.ResponderMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) RequestId: 0HM0APOIER7DV:00000002 : OcelotRequestId - not set 
+2020-06-07 13:34:00.9810||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.1528ms 500  
+2020-06-07 13:34:04.9888||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 13:34:04.9888||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.4965ms 200 application/json; charset=utf-8 
+2020-06-07 13:34:05.3899||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/Account/1088750011   
+2020-06-07 13:34:05.3899||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 13:34:05.3899||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:34:05.3899||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:34:05.4352||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 45.3538ms 200 application/json; charset=utf-8 
+2020-06-07 13:34:06.7902||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 13:34:06.7902||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.8301ms 200 application/json; charset=utf-8 
+2020-06-07 13:34:07.6903||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/SendCheque   
+2020-06-07 13:34:07.6903||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 13:34:07.6903||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:34:07.6903||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:34:11.7013||ERROR|Ocelot.Responder.Middleware.ResponderMiddleware|1 pipeline errors found in ResponderMiddleware. Setting error response status code : OcelotRequestId - not set 
+2020-06-07 13:34:11.7013||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4012.2119ms 0  
+2020-06-07 13:34:28.2944||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/aq/Account   
+2020-06-07 13:34:28.2944||ERROR|Ocelot.Authentication.Middleware.AuthenticationMiddleware|Client has NOT been authenticated for /api/aq/Account and pipeline error set. Error Code: UnauthenticatedError Message: Request for authenticated route /api/aq/Account by  was unauthenticated : OcelotRequestId - not set 
+2020-06-07 13:34:28.2944||ERROR|Ocelot.Responder.Middleware.ResponderMiddleware|1 pipeline errors found in ResponderMiddleware. Setting error response status code : OcelotRequestId - not set 
+2020-06-07 13:34:28.2944||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.58ms 401  
+2020-06-07 13:34:32.7201||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 13:34:32.7201||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.1076ms 200 application/json; charset=utf-8 
+2020-06-07 13:34:36.0530||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/aq/Account   
+2020-06-07 13:34:36.0530||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 13:34:36.0530||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:34:36.0530||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:34:36.0530||ERROR|Ocelot.Errors.Middleware.ExceptionHandlerMiddleware|Exception caught in global error handler, exception message: Invalid URI: The hostname could not be parsed., exception stack:    at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at System.UriBuilder.get_Uri()
+   at Ocelot.LoadBalancer.Middleware.LoadBalancingMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.QueryStrings.Middleware.QueryStringBuilderMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Headers.Middleware.HttpRequestHeadersBuilderMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Authorisation.Middleware.AuthorisationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Claims.Middleware.ClaimsBuilderMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Authentication.Middleware.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.RequestId.Middleware.RequestIdMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Request.Middleware.DownstreamRequestInitialiserMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Responder.Middleware.ResponderMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) RequestId: 0HM0APOIER7E3:00000002 : OcelotRequestId - not set 
+2020-06-07 13:34:36.0588||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.8352ms 500  
+2020-06-07 13:34:42.2445||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 13:34:42.2445||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.3918ms 200 application/json; charset=utf-8 
+2020-06-07 13:34:42.7751||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/Account/1088750011   
+2020-06-07 13:34:42.7751||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 13:34:42.7751||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:34:42.7751||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:34:42.7985||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 23.377ms 200 application/json; charset=utf-8 
+2020-06-07 13:34:44.2055||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 13:34:44.2055||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.2435ms 200 application/json; charset=utf-8 
+2020-06-07 13:34:45.2554||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/SendCheque   
+2020-06-07 13:34:45.2554||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 13:34:45.2554||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:34:45.2554||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:34:49.2639||ERROR|Ocelot.Responder.Middleware.ResponderMiddleware|1 pipeline errors found in ResponderMiddleware. Setting error response status code : OcelotRequestId - not set 
+2020-06-07 13:34:49.2639||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4009.0718ms 0  
+2020-06-07 13:36:08.0454||INFO|IdentityServer4.Startup|You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2020-06-07 13:39:11.8313||INFO|IdentityServer4.Startup|You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2020-06-07 13:39:19.1852||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/aq/Account   
+2020-06-07 13:39:19.3023||ERROR|Ocelot.Authentication.Middleware.AuthenticationMiddleware|Client has NOT been authenticated for /api/aq/Account and pipeline error set. Error Code: UnauthenticatedError Message: Request for authenticated route /api/aq/Account by  was unauthenticated : OcelotRequestId - not set 
+2020-06-07 13:39:19.3023||ERROR|Ocelot.Responder.Middleware.ResponderMiddleware|1 pipeline errors found in ResponderMiddleware. Setting error response status code : OcelotRequestId - not set 
+2020-06-07 13:39:19.3446||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 164.3774ms 401  
+2020-06-07 13:39:25.0602||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 13:39:25.2074||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 147.1332ms 200 application/json; charset=utf-8 
+2020-06-07 13:39:27.5585||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/aq/Account   
+2020-06-07 13:39:27.6030||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 13:39:27.6072||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:39:27.6072||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:39:27.6296||ERROR|Ocelot.Errors.Middleware.ExceptionHandlerMiddleware|Exception caught in global error handler, exception message: Invalid URI: The hostname could not be parsed., exception stack:    at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at System.UriBuilder.get_Uri()
+   at Ocelot.LoadBalancer.Middleware.LoadBalancingMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.QueryStrings.Middleware.QueryStringBuilderMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Headers.Middleware.HttpRequestHeadersBuilderMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Authorisation.Middleware.AuthorisationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Claims.Middleware.ClaimsBuilderMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Authentication.Middleware.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.RequestId.Middleware.RequestIdMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Request.Middleware.DownstreamRequestInitialiserMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Responder.Middleware.ResponderMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) RequestId: 0HM0APS48Q4GO:00000002 : OcelotRequestId - not set 
+2020-06-07 13:39:27.6296||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 71.9838ms 500  
+2020-06-07 13:40:01.3894||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/aq/Account   
+2020-06-07 13:40:01.3894||ERROR|Ocelot.Authentication.Middleware.AuthenticationMiddleware|Client has NOT been authenticated for /api/aq/Account and pipeline error set. Error Code: UnauthenticatedError Message: Request for authenticated route /api/aq/Account by  was unauthenticated : OcelotRequestId - not set 
+2020-06-07 13:40:01.3894||ERROR|Ocelot.Responder.Middleware.ResponderMiddleware|1 pipeline errors found in ResponderMiddleware. Setting error response status code : OcelotRequestId - not set 
+2020-06-07 13:40:01.3894||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1.7215ms 401  
+2020-06-07 13:40:07.0323||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 13:40:07.0323||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.4662ms 200 application/json; charset=utf-8 
+2020-06-07 13:40:09.7093||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/aq/Account   
+2020-06-07 13:40:09.7093||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 13:40:09.7093||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:40:09.7093||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:40:09.7093||ERROR|Ocelot.Errors.Middleware.ExceptionHandlerMiddleware|Exception caught in global error handler, exception message: Invalid URI: The hostname could not be parsed., exception stack:    at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at System.UriBuilder.get_Uri()
+   at Ocelot.LoadBalancer.Middleware.LoadBalancingMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.QueryStrings.Middleware.QueryStringBuilderMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Headers.Middleware.HttpRequestHeadersBuilderMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Authorisation.Middleware.AuthorisationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Claims.Middleware.ClaimsBuilderMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Authentication.Middleware.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.RequestId.Middleware.RequestIdMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.DownstreamRouteFinder.Middleware.DownstreamRouteFinderMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Request.Middleware.DownstreamRequestInitialiserMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Responder.Middleware.ResponderMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Ocelot.Errors.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) RequestId: 0HM0APS48Q4GQ:00000002 : OcelotRequestId - not set 
+2020-06-07 13:40:09.7093||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.2935ms 500  
+2020-06-07 13:43:46.6497||INFO|IdentityServer4.Startup|You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. 
+2020-06-07 13:48:51.2136||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/aq/Account   
+2020-06-07 13:48:51.3831||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQ1EO073S:00000001, previousRequestId: no previous request id, message: /api/aq/Account is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 13:48:51.3881||WARN|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQ1EO073S:00000001, previousRequestId: no previous request id, message: Client has NOT been authenticated for /api/aq/Account and pipeline error set. Request for authenticated route /api/aq/Account by  was unauthenticated 
+2020-06-07 13:48:51.3881||WARN|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQ1EO073S:00000001, previousRequestId: no previous request id, message: Request for authenticated route /api/aq/Account by  was unauthenticated 
+2020-06-07 13:48:51.3881||WARN|Ocelot.Responder.Middleware.ResponderMiddleware|requestId: 0HM0AQ1EO073S:00000001, previousRequestId: no previous request id, message: Error Code: UnauthenticatedError Message: Request for authenticated route /api/aq/Account by  was unauthenticated errors found in ResponderMiddleware. Setting error response for request path:/api/aq/Account, request method: GET 
+2020-06-07 13:48:51.4376||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 238.3765ms 401  
+2020-06-07 13:48:54.7050||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 13:48:54.7050||INFO|Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware|requestId: 0HM0AQ1EO073T:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/auth 
+2020-06-07 13:48:54.7050||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQ1EO073T:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/auth 
+2020-06-07 13:48:54.7050||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQ1EO073T:00000001, previousRequestId: no previous request id, message: /api/auth route does not require user to be authorised 
+2020-06-07 13:48:54.9303||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 225.3095ms 200 application/json; charset=utf-8 
+2020-06-07 13:48:58.2283||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/aq/Account   
+2020-06-07 13:48:58.2850||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 13:48:58.2850||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:48:58.2850||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQ1EO073S:00000002, previousRequestId: no previous request id, message: /api/aq/Account is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 13:48:58.2850||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:48:58.2850||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQ1EO073S:00000002, previousRequestId: no previous request id, message: Client has been authenticated for /api/aq/Account 
+2020-06-07 13:48:58.2850||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQ1EO073S:00000002, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-07 13:48:58.2940||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQ1EO073S:00000002, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-07 13:48:58.2940||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQ1EO073S:00000002, previousRequestId: no previous request id, message: /api/aq/Account route does not require user to be authorised 
+2020-06-07 13:48:58.5276||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 299.2239ms 200 application/json; charset=utf-8 
+2020-06-07 13:49:00.9484||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 13:49:00.9484||INFO|Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware|requestId: 0HM0AQ1EO073U:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/auth 
+2020-06-07 13:49:00.9494||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQ1EO073U:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/auth 
+2020-06-07 13:49:00.9494||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQ1EO073U:00000001, previousRequestId: no previous request id, message: /api/auth route does not require user to be authorised 
+2020-06-07 13:49:00.9494||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.9231ms 200 application/json; charset=utf-8 
+2020-06-07 13:49:01.4545||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/Account/1088750011   
+2020-06-07 13:49:01.4545||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 13:49:01.4545||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:49:01.4545||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQ1EO073S:00000003, previousRequestId: no previous request id, message: /Account/1088750011 is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 13:49:01.4545||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 13:49:01.4545||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQ1EO073S:00000003, previousRequestId: no previous request id, message: Client has been authenticated for /Account/1088750011 
+2020-06-07 13:49:01.4545||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQ1EO073S:00000003, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-07 13:49:01.4545||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQ1EO073S:00000003, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-07 13:49:01.4545||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQ1EO073S:00000003, previousRequestId: no previous request id, message: /api/aq/Account/{ACCNO} route does not require user to be authorised 
+2020-06-07 13:49:02.3888||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 934.3579ms 200 application/json; charset=utf-8 
+2020-06-07 13:49:04.0810||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 13:49:04.0810||INFO|Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware|requestId: 0HM0AQ1EO073V:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/auth 
+2020-06-07 13:49:04.0810||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQ1EO073V:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/auth 
+2020-06-07 13:49:04.0810||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQ1EO073V:00000001, previousRequestId: no previous request id, message: /api/auth route does not require user to be authorised 
+2020-06-07 13:49:04.0810||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.0037ms 200 application/json; charset=utf-8 
+2020-06-07 14:05:29.4239||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/aq/Account   
+2020-06-07 14:05:29.6017||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQAO7JQ7Q:00000001, previousRequestId: no previous request id, message: /api/aq/Account is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 14:05:29.6063||WARN|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQAO7JQ7Q:00000001, previousRequestId: no previous request id, message: Client has NOT been authenticated for /api/aq/Account and pipeline error set. Request for authenticated route /api/aq/Account by  was unauthenticated 
+2020-06-07 14:05:29.6063||WARN|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQAO7JQ7Q:00000001, previousRequestId: no previous request id, message: Request for authenticated route /api/aq/Account by  was unauthenticated 
+2020-06-07 14:05:29.6063||WARN|Ocelot.Responder.Middleware.ResponderMiddleware|requestId: 0HM0AQAO7JQ7Q:00000001, previousRequestId: no previous request id, message: Error Code: UnauthenticatedError Message: Request for authenticated route /api/aq/Account by  was unauthenticated errors found in ResponderMiddleware. Setting error response for request path:/api/aq/Account, request method: GET 
+2020-06-07 14:05:29.6551||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 247.0976ms 401  
+2020-06-07 14:05:33.6612||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 14:05:33.6612||INFO|Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware|requestId: 0HM0AQAO7JQ7R:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/auth 
+2020-06-07 14:05:33.6612||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQAO7JQ7R:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/auth 
+2020-06-07 14:05:33.6726||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQAO7JQ7R:00000001, previousRequestId: no previous request id, message: /api/auth route does not require user to be authorised 
+2020-06-07 14:05:34.3805||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 719.3128ms 200 application/json; charset=utf-8 
+2020-06-07 14:05:36.4377||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/aq/Account   
+2020-06-07 14:05:36.4927||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 14:05:36.4927||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 14:05:36.4927||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQAO7JQ7Q:00000002, previousRequestId: no previous request id, message: /api/aq/Account is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 14:05:36.4927||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 14:05:36.4927||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQAO7JQ7Q:00000002, previousRequestId: no previous request id, message: Client has been authenticated for /api/aq/Account 
+2020-06-07 14:05:36.4927||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQAO7JQ7Q:00000002, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-07 14:05:36.4927||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQAO7JQ7Q:00000002, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-07 14:05:36.4927||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQAO7JQ7Q:00000002, previousRequestId: no previous request id, message: /api/aq/Account route does not require user to be authorised 
+2020-06-07 14:05:36.9152||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 477.5783ms 200 application/json; charset=utf-8 
+2020-06-07 14:05:42.8144||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 14:05:42.8144||INFO|Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware|requestId: 0HM0AQAO7JQ7S:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/auth 
+2020-06-07 14:05:42.8144||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQAO7JQ7S:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/auth 
+2020-06-07 14:05:42.8144||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQAO7JQ7S:00000001, previousRequestId: no previous request id, message: /api/auth route does not require user to be authorised 
+2020-06-07 14:05:42.8144||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.8897ms 200 application/json; charset=utf-8 
+2020-06-07 14:05:43.2610||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/Account/1088750011   
+2020-06-07 14:05:43.2610||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 14:05:43.2610||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 14:05:43.2610||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQAO7JQ7Q:00000003, previousRequestId: no previous request id, message: /Account/1088750011 is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 14:05:43.2610||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 14:05:43.2610||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQAO7JQ7Q:00000003, previousRequestId: no previous request id, message: Client has been authenticated for /Account/1088750011 
+2020-06-07 14:05:43.2610||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQAO7JQ7Q:00000003, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-07 14:05:43.2610||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQAO7JQ7Q:00000003, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-07 14:05:43.2610||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQAO7JQ7Q:00000003, previousRequestId: no previous request id, message: /api/aq/Account/{ACCNO} route does not require user to be authorised 
+2020-06-07 14:05:44.4643||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1203.2876ms 200 application/json; charset=utf-8 
+2020-06-07 14:05:46.4563||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 14:05:46.4563||INFO|Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware|requestId: 0HM0AQAO7JQ7T:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/auth 
+2020-06-07 14:05:46.4563||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQAO7JQ7T:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/auth 
+2020-06-07 14:05:46.4563||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQAO7JQ7T:00000001, previousRequestId: no previous request id, message: /api/auth route does not require user to be authorised 
+2020-06-07 14:05:46.4563||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.6152ms 200 application/json; charset=utf-8 
+2020-06-07 14:05:47.3769||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/SendCheque   
+2020-06-07 14:05:47.3769||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 14:05:47.3769||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 14:05:47.3769||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQAO7JQ7Q:00000004, previousRequestId: no previous request id, message: /api/SendCheque is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 14:05:47.3769||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 14:05:47.3769||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQAO7JQ7Q:00000004, previousRequestId: no previous request id, message: Client has been authenticated for /api/SendCheque 
+2020-06-07 14:05:47.3769||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQAO7JQ7Q:00000004, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-07 14:05:47.3769||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQAO7JQ7Q:00000004, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-07 14:05:47.3769||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQAO7JQ7Q:00000004, previousRequestId: no previous request id, message: /api/cd/SendCheque route does not require user to be authorised 
+2020-06-07 14:05:51.4215||WARN|Ocelot.Requester.Middleware.HttpRequesterMiddleware|requestId: 0HM0AQAO7JQ7Q:00000004, previousRequestId: no previous request id, message: Error making http request, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.CreateConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.WaitForCreatedConnectionAsync(ValueTask`1 creationTask)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(DownstreamContext context) 
+2020-06-07 14:05:51.4215||WARN|Ocelot.Responder.Middleware.ResponderMiddleware|requestId: 0HM0AQAO7JQ7Q:00000004, previousRequestId: no previous request id, message: Error Code: UnableToCompleteRequestError Message: Error making http request, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.CreateConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.WaitForCreatedConnectionAsync(ValueTask`1 creationTask)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(DownstreamContext context) errors found in ResponderMiddleware. Setting error response for request path:/api/SendCheque, request method: GET 
+2020-06-07 14:05:51.4215||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4046.1214ms 404  
+2020-06-07 14:25:17.4189||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/aq/Account   
+2020-06-07 14:25:17.6686||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQLQ8RHV5:00000001, previousRequestId: no previous request id, message: /api/aq/Account is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 14:25:17.6686||WARN|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQLQ8RHV5:00000001, previousRequestId: no previous request id, message: Client has NOT been authenticated for /api/aq/Account and pipeline error set. Request for authenticated route /api/aq/Account by  was unauthenticated 
+2020-06-07 14:25:17.6686||WARN|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQLQ8RHV5:00000001, previousRequestId: no previous request id, message: Request for authenticated route /api/aq/Account by  was unauthenticated 
+2020-06-07 14:25:17.6826||WARN|Ocelot.Responder.Middleware.ResponderMiddleware|requestId: 0HM0AQLQ8RHV5:00000001, previousRequestId: no previous request id, message: Error Code: UnauthenticatedError Message: Request for authenticated route /api/aq/Account by  was unauthenticated errors found in ResponderMiddleware. Setting error response for request path:/api/aq/Account, request method: GET 
+2020-06-07 14:25:17.7233||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 319.3603ms 401  
+2020-06-07 14:25:21.8632||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 14:25:21.8632||INFO|Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware|requestId: 0HM0AQLQ8RHV6:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/auth 
+2020-06-07 14:25:21.8632||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQLQ8RHV6:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/auth 
+2020-06-07 14:25:21.8700||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQLQ8RHV6:00000001, previousRequestId: no previous request id, message: /api/auth route does not require user to be authorised 
+2020-06-07 14:25:22.6237||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 760.4591ms 200 application/json; charset=utf-8 
+2020-06-07 14:25:24.8007||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/aq/Account   
+2020-06-07 14:25:24.8584||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 14:25:24.8584||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 14:25:24.8584||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQLQ8RHV5:00000002, previousRequestId: no previous request id, message: /api/aq/Account is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 14:25:24.8584||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 14:25:24.8584||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQLQ8RHV5:00000002, previousRequestId: no previous request id, message: Client has been authenticated for /api/aq/Account 
+2020-06-07 14:25:24.8584||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQLQ8RHV5:00000002, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-07 14:25:24.8584||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQLQ8RHV5:00000002, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-07 14:25:24.8680||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQLQ8RHV5:00000002, previousRequestId: no previous request id, message: /api/aq/Account route does not require user to be authorised 
+2020-06-07 14:25:25.3708||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 570.0336ms 200 application/json; charset=utf-8 
+2020-06-07 14:25:29.1658||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 14:25:29.1658||INFO|Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware|requestId: 0HM0AQLQ8RHV7:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/auth 
+2020-06-07 14:25:29.1658||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQLQ8RHV7:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/auth 
+2020-06-07 14:25:29.1658||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQLQ8RHV7:00000001, previousRequestId: no previous request id, message: /api/auth route does not require user to be authorised 
+2020-06-07 14:25:29.1658||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.4678ms 200 application/json; charset=utf-8 
+2020-06-07 14:25:29.6595||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/Account/1088750011   
+2020-06-07 14:25:29.6595||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 14:25:29.6595||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 14:25:29.6595||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQLQ8RHV5:00000003, previousRequestId: no previous request id, message: /Account/1088750011 is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 14:25:29.6595||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 14:25:29.6595||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQLQ8RHV5:00000003, previousRequestId: no previous request id, message: Client has been authenticated for /Account/1088750011 
+2020-06-07 14:25:29.6595||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQLQ8RHV5:00000003, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-07 14:25:29.6595||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQLQ8RHV5:00000003, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-07 14:25:29.6646||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQLQ8RHV5:00000003, previousRequestId: no previous request id, message: /api/aq/Account/{ACCNO} route does not require user to be authorised 
+2020-06-07 14:25:32.2496||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2590.1002ms 200 application/json; charset=utf-8 
+2020-06-07 14:25:34.1772||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 14:25:34.1772||INFO|Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware|requestId: 0HM0AQLQ8RHV8:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/auth 
+2020-06-07 14:25:34.1772||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQLQ8RHV8:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/auth 
+2020-06-07 14:25:34.1772||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQLQ8RHV8:00000001, previousRequestId: no previous request id, message: /api/auth route does not require user to be authorised 
+2020-06-07 14:25:34.1830||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.8354ms 200 application/json; charset=utf-8 
+2020-06-07 14:25:34.9970||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/SendCheque   
+2020-06-07 14:25:34.9970||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 14:25:34.9970||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 14:25:34.9970||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQLQ8RHV5:00000004, previousRequestId: no previous request id, message: /api/SendCheque is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 14:25:34.9970||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 14:25:34.9970||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AQLQ8RHV5:00000004, previousRequestId: no previous request id, message: Client has been authenticated for /api/SendCheque 
+2020-06-07 14:25:34.9970||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQLQ8RHV5:00000004, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-07 14:25:34.9970||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQLQ8RHV5:00000004, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-07 14:25:34.9970||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AQLQ8RHV5:00000004, previousRequestId: no previous request id, message: /api/cd/SendCheque route does not require user to be authorised 
+2020-06-07 14:25:39.4084||WARN|Ocelot.Requester.Middleware.HttpRequesterMiddleware|requestId: 0HM0AQLQ8RHV5:00000004, previousRequestId: no previous request id, message: Error making http request, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.CreateConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.WaitForCreatedConnectionAsync(ValueTask`1 creationTask)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(DownstreamContext context) 
+2020-06-07 14:25:39.4084||WARN|Ocelot.Responder.Middleware.ResponderMiddleware|requestId: 0HM0AQLQ8RHV5:00000004, previousRequestId: no previous request id, message: Error Code: UnableToCompleteRequestError Message: Error making http request, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.CreateConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.WaitForCreatedConnectionAsync(ValueTask`1 creationTask)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(DownstreamContext context) errors found in ResponderMiddleware. Setting error response for request path:/api/SendCheque, request method: GET 
+2020-06-07 14:25:39.4084||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4413.7312ms 404  
+2020-06-07 16:41:35.3925||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/aq/Account   
+2020-06-07 16:41:35.7156||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AT1VF72KS:00000001, previousRequestId: no previous request id, message: /api/aq/Account is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 16:41:35.7812||WARN|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AT1VF72KS:00000001, previousRequestId: no previous request id, message: Client has NOT been authenticated for /api/aq/Account and pipeline error set. Request for authenticated route /api/aq/Account by  was unauthenticated 
+2020-06-07 16:41:35.7812||WARN|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AT1VF72KS:00000001, previousRequestId: no previous request id, message: Request for authenticated route /api/aq/Account by  was unauthenticated 
+2020-06-07 16:41:35.7812||WARN|Ocelot.Responder.Middleware.ResponderMiddleware|requestId: 0HM0AT1VF72KS:00000001, previousRequestId: no previous request id, message: Error Code: UnauthenticatedError Message: Request for authenticated route /api/aq/Account by  was unauthenticated errors found in ResponderMiddleware. Setting error response for request path:/api/aq/Account, request method: GET 
+2020-06-07 16:41:35.8660||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 539.5427ms 401  
+2020-06-07 16:41:40.6732||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 16:41:40.6732||INFO|Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware|requestId: 0HM0AT1VF72KT:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/auth 
+2020-06-07 16:41:40.6732||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AT1VF72KT:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/auth 
+2020-06-07 16:41:40.6809||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AT1VF72KT:00000001, previousRequestId: no previous request id, message: /api/auth route does not require user to be authorised 
+2020-06-07 16:41:41.8322||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1158.9068ms 200 application/json; charset=utf-8 
+2020-06-07 16:41:45.8861||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/aq/Account   
+2020-06-07 16:41:45.9387||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 16:41:45.9387||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 16:41:45.9387||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AT1VF72KS:00000002, previousRequestId: no previous request id, message: /api/aq/Account is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 16:41:45.9463||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 16:41:45.9463||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AT1VF72KS:00000002, previousRequestId: no previous request id, message: Client has been authenticated for /api/aq/Account 
+2020-06-07 16:41:45.9463||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AT1VF72KS:00000002, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-07 16:41:45.9463||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AT1VF72KS:00000002, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-07 16:41:45.9463||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AT1VF72KS:00000002, previousRequestId: no previous request id, message: /api/aq/Account route does not require user to be authorised 
+2020-06-07 16:41:47.1347||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1248.6723ms 200 application/json; charset=utf-8 
+2020-06-07 16:41:52.2643||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 16:41:52.2643||INFO|Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware|requestId: 0HM0AT1VF72KU:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/auth 
+2020-06-07 16:41:52.2643||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AT1VF72KU:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/auth 
+2020-06-07 16:41:52.2643||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AT1VF72KU:00000001, previousRequestId: no previous request id, message: /api/auth route does not require user to be authorised 
+2020-06-07 16:41:52.2643||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.6991ms 200 application/json; charset=utf-8 
+2020-06-07 16:41:52.7820||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/Account/1088750011   
+2020-06-07 16:41:52.7820||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 16:41:52.7820||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 16:41:52.7820||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AT1VF72KS:00000003, previousRequestId: no previous request id, message: /Account/1088750011 is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 16:41:52.7820||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 16:41:52.7820||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AT1VF72KS:00000003, previousRequestId: no previous request id, message: Client has been authenticated for /Account/1088750011 
+2020-06-07 16:41:52.7820||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AT1VF72KS:00000003, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-07 16:41:52.7820||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AT1VF72KS:00000003, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-07 16:41:52.7820||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AT1VF72KS:00000003, previousRequestId: no previous request id, message: /api/aq/Account/{ACCNO} route does not require user to be authorised 
+2020-06-07 16:42:11.4493||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 18667.311ms 500 text/plain 
+2020-06-07 16:42:19.3736||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 16:42:19.3736||INFO|Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware|requestId: 0HM0AT1VF72KV:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/auth 
+2020-06-07 16:42:19.3736||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AT1VF72KV:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/auth 
+2020-06-07 16:42:19.3736||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AT1VF72KV:00000001, previousRequestId: no previous request id, message: /api/auth route does not require user to be authorised 
+2020-06-07 16:42:19.3736||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.4902ms 200 application/json; charset=utf-8 
+2020-06-07 16:42:20.5094||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/SendCheque   
+2020-06-07 16:42:20.5094||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 16:42:20.5094||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 16:42:20.5094||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AT1VF72KS:00000004, previousRequestId: no previous request id, message: /api/SendCheque is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 16:42:20.5094||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 16:42:20.5094||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AT1VF72KS:00000004, previousRequestId: no previous request id, message: Client has been authenticated for /api/SendCheque 
+2020-06-07 16:42:20.5094||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AT1VF72KS:00000004, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-07 16:42:20.5094||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AT1VF72KS:00000004, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-07 16:42:20.5094||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AT1VF72KS:00000004, previousRequestId: no previous request id, message: /api/cd/SendCheque route does not require user to be authorised 
+2020-06-07 16:42:25.0148||WARN|Ocelot.Requester.Middleware.HttpRequesterMiddleware|requestId: 0HM0AT1VF72KS:00000004, previousRequestId: no previous request id, message: Error making http request, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.CreateConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.WaitForCreatedConnectionAsync(ValueTask`1 creationTask)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(DownstreamContext context) 
+2020-06-07 16:42:25.0148||WARN|Ocelot.Responder.Middleware.ResponderMiddleware|requestId: 0HM0AT1VF72KS:00000004, previousRequestId: no previous request id, message: Error Code: UnableToCompleteRequestError Message: Error making http request, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.CreateConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.WaitForCreatedConnectionAsync(ValueTask`1 creationTask)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(DownstreamContext context) errors found in ResponderMiddleware. Setting error response for request path:/api/SendCheque, request method: GET 
+2020-06-07 16:42:25.0148||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4506.7324ms 404  
+2020-06-07 16:44:18.0772||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/aq/Account   
+2020-06-07 16:44:18.0772||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AT1VF72L0:00000001, previousRequestId: no previous request id, message: /api/aq/Account is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 16:44:18.0772||WARN|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AT1VF72L0:00000001, previousRequestId: no previous request id, message: Client has NOT been authenticated for /api/aq/Account and pipeline error set. Request for authenticated route /api/aq/Account by  was unauthenticated 
+2020-06-07 16:44:18.0772||WARN|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AT1VF72L0:00000001, previousRequestId: no previous request id, message: Request for authenticated route /api/aq/Account by  was unauthenticated 
+2020-06-07 16:44:18.0772||WARN|Ocelot.Responder.Middleware.ResponderMiddleware|requestId: 0HM0AT1VF72L0:00000001, previousRequestId: no previous request id, message: Error Code: UnauthenticatedError Message: Request for authenticated route /api/aq/Account by  was unauthenticated errors found in ResponderMiddleware. Setting error response for request path:/api/aq/Account, request method: GET 
+2020-06-07 16:44:18.0772||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.5287ms 401  
+2020-06-07 16:44:30.2856||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 16:44:30.2856||INFO|Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware|requestId: 0HM0AT1VF72L1:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/auth 
+2020-06-07 16:44:30.2856||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AT1VF72L1:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/auth 
+2020-06-07 16:44:30.2856||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AT1VF72L1:00000001, previousRequestId: no previous request id, message: /api/auth route does not require user to be authorised 
+2020-06-07 16:44:30.2901||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.5146ms 200 application/json; charset=utf-8 
+2020-06-07 16:44:36.5124||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/aq/Account   
+2020-06-07 16:44:36.5124||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 16:44:36.5124||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 16:44:36.5124||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AT1VF72L0:00000002, previousRequestId: no previous request id, message: /api/aq/Account is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 16:44:36.5124||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 16:44:36.5124||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AT1VF72L0:00000002, previousRequestId: no previous request id, message: Client has been authenticated for /api/aq/Account 
+2020-06-07 16:44:36.5124||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AT1VF72L0:00000002, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-07 16:44:36.5124||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AT1VF72L0:00000002, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-07 16:44:36.5124||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AT1VF72L0:00000002, previousRequestId: no previous request id, message: /api/aq/Account route does not require user to be authorised 
+2020-06-07 16:44:36.7404||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 227.9692ms 200 application/json; charset=utf-8 
+2020-06-07 16:44:44.9999||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 16:44:44.9999||INFO|Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware|requestId: 0HM0AT1VF72L2:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/auth 
+2020-06-07 16:44:44.9999||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AT1VF72L2:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/auth 
+2020-06-07 16:44:44.9999||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AT1VF72L2:00000001, previousRequestId: no previous request id, message: /api/auth route does not require user to be authorised 
+2020-06-07 16:44:44.9999||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.5411ms 200 application/json; charset=utf-8 
+2020-06-07 16:44:45.7840||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/Account/1088750011   
+2020-06-07 16:44:45.7840||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 16:44:45.7840||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 16:44:45.7840||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AT1VF72L0:00000003, previousRequestId: no previous request id, message: /Account/1088750011 is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 16:44:45.7840||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 16:44:45.7840||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AT1VF72L0:00000003, previousRequestId: no previous request id, message: Client has been authenticated for /Account/1088750011 
+2020-06-07 16:44:45.7840||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AT1VF72L0:00000003, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-07 16:44:45.7840||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AT1VF72L0:00000003, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-07 16:44:45.7840||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AT1VF72L0:00000003, previousRequestId: no previous request id, message: /api/aq/Account/{ACCNO} route does not require user to be authorised 
+2020-06-07 16:44:48.6419||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2857.8738ms 200 application/json; charset=utf-8 
+2020-06-07 16:44:53.3599||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 16:44:53.3599||INFO|Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware|requestId: 0HM0AT1VF72L3:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/auth 
+2020-06-07 16:44:53.3599||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AT1VF72L3:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/auth 
+2020-06-07 16:44:53.3599||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AT1VF72L3:00000001, previousRequestId: no previous request id, message: /api/auth route does not require user to be authorised 
+2020-06-07 16:44:53.3599||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.3767ms 200 application/json; charset=utf-8 
+2020-06-07 16:44:54.4954||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/SendCheque   
+2020-06-07 16:44:54.4954||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 16:44:54.4954||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 16:44:54.4954||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AT1VF72L0:00000004, previousRequestId: no previous request id, message: /api/SendCheque is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 16:44:54.4954||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 16:44:54.4954||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0AT1VF72L0:00000004, previousRequestId: no previous request id, message: Client has been authenticated for /api/SendCheque 
+2020-06-07 16:44:54.4954||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AT1VF72L0:00000004, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-07 16:44:54.4954||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AT1VF72L0:00000004, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-07 16:44:54.4954||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0AT1VF72L0:00000004, previousRequestId: no previous request id, message: /api/cd/SendCheque route does not require user to be authorised 
+2020-06-07 16:44:58.5116||WARN|Ocelot.Requester.Middleware.HttpRequesterMiddleware|requestId: 0HM0AT1VF72L0:00000004, previousRequestId: no previous request id, message: Error making http request, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.CreateConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.WaitForCreatedConnectionAsync(ValueTask`1 creationTask)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(DownstreamContext context) 
+2020-06-07 16:44:58.5116||WARN|Ocelot.Responder.Middleware.ResponderMiddleware|requestId: 0HM0AT1VF72L0:00000004, previousRequestId: no previous request id, message: Error Code: UnableToCompleteRequestError Message: Error making http request, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.CreateConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.WaitForCreatedConnectionAsync(ValueTask`1 creationTask)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(DownstreamContext context) errors found in ResponderMiddleware. Setting error response for request path:/api/SendCheque, request method: GET 
+2020-06-07 16:44:58.5116||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4017.0472ms 404  
+2020-06-07 16:59:54.5400||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/aq/Account   
+2020-06-07 16:59:54.7034||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATC72OQ8F:00000001, previousRequestId: no previous request id, message: /api/aq/Account is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 16:59:54.7034||WARN|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATC72OQ8F:00000001, previousRequestId: no previous request id, message: Client has NOT been authenticated for /api/aq/Account and pipeline error set. Request for authenticated route /api/aq/Account by  was unauthenticated 
+2020-06-07 16:59:54.7034||WARN|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATC72OQ8F:00000001, previousRequestId: no previous request id, message: Request for authenticated route /api/aq/Account by  was unauthenticated 
+2020-06-07 16:59:54.7167||WARN|Ocelot.Responder.Middleware.ResponderMiddleware|requestId: 0HM0ATC72OQ8F:00000001, previousRequestId: no previous request id, message: Error Code: UnauthenticatedError Message: Request for authenticated route /api/aq/Account by  was unauthenticated errors found in ResponderMiddleware. Setting error response for request path:/api/aq/Account, request method: GET 
+2020-06-07 16:59:54.7573||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 232.0863ms 401  
+2020-06-07 16:59:59.9512||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 16:59:59.9512||INFO|Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware|requestId: 0HM0ATC72OQ8G:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/auth 
+2020-06-07 16:59:59.9512||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATC72OQ8G:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/auth 
+2020-06-07 16:59:59.9512||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATC72OQ8G:00000001, previousRequestId: no previous request id, message: /api/auth route does not require user to be authorised 
+2020-06-07 17:00:00.6583||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 707.0901ms 200 application/json; charset=utf-8 
+2020-06-07 17:00:07.7683||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/aq/Account   
+2020-06-07 17:00:07.8243||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 17:00:07.8243||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 17:00:07.8243||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATC72OQ8F:00000002, previousRequestId: no previous request id, message: /api/aq/Account is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 17:00:07.8243||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 17:00:07.8243||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATC72OQ8F:00000002, previousRequestId: no previous request id, message: Client has been authenticated for /api/aq/Account 
+2020-06-07 17:00:07.8243||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATC72OQ8F:00000002, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-07 17:00:07.8243||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATC72OQ8F:00000002, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-07 17:00:07.8243||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATC72OQ8F:00000002, previousRequestId: no previous request id, message: /api/aq/Account route does not require user to be authorised 
+2020-06-07 17:00:08.0651||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 296.7596ms 200 application/json; charset=utf-8 
+2020-06-07 17:00:12.9691||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 17:00:12.9691||INFO|Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware|requestId: 0HM0ATC72OQ8H:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/auth 
+2020-06-07 17:00:12.9691||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATC72OQ8H:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/auth 
+2020-06-07 17:00:12.9691||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATC72OQ8H:00000001, previousRequestId: no previous request id, message: /api/auth route does not require user to be authorised 
+2020-06-07 17:00:12.9691||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6.0449ms 200 application/json; charset=utf-8 
+2020-06-07 17:00:13.7823||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/Account/1088750011   
+2020-06-07 17:00:13.7823||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 17:00:13.7823||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 17:00:13.7823||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATC72OQ8F:00000003, previousRequestId: no previous request id, message: /Account/1088750011 is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 17:00:13.7823||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 17:00:13.7823||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATC72OQ8F:00000003, previousRequestId: no previous request id, message: Client has been authenticated for /Account/1088750011 
+2020-06-07 17:00:13.7823||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATC72OQ8F:00000003, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-07 17:00:13.7823||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATC72OQ8F:00000003, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-07 17:00:13.7823||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATC72OQ8F:00000003, previousRequestId: no previous request id, message: /api/aq/Account/{ACCNO} route does not require user to be authorised 
+2020-06-07 17:00:14.7790||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 996.6845ms 200 application/json; charset=utf-8 
+2020-06-07 17:00:20.1859||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 17:00:20.1859||INFO|Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware|requestId: 0HM0ATC72OQ8I:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/auth 
+2020-06-07 17:00:20.1859||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATC72OQ8I:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/auth 
+2020-06-07 17:00:20.1859||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATC72OQ8I:00000001, previousRequestId: no previous request id, message: /api/auth route does not require user to be authorised 
+2020-06-07 17:00:20.1859||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6.8999ms 200 application/json; charset=utf-8 
+2020-06-07 17:00:21.8022||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/SendCheque   
+2020-06-07 17:00:21.8022||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 17:00:21.8022||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 17:00:21.8022||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATC72OQ8F:00000004, previousRequestId: no previous request id, message: /api/SendCheque is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 17:00:21.8022||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 17:00:21.8054||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATC72OQ8F:00000004, previousRequestId: no previous request id, message: Client has been authenticated for /api/SendCheque 
+2020-06-07 17:00:21.8054||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATC72OQ8F:00000004, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-07 17:00:21.8054||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATC72OQ8F:00000004, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-07 17:00:21.8054||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATC72OQ8F:00000004, previousRequestId: no previous request id, message: /api/cd/SendCheque route does not require user to be authorised 
+2020-06-07 17:00:25.8565||WARN|Ocelot.Requester.Middleware.HttpRequesterMiddleware|requestId: 0HM0ATC72OQ8F:00000004, previousRequestId: no previous request id, message: Error making http request, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.CreateConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.WaitForCreatedConnectionAsync(ValueTask`1 creationTask)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(DownstreamContext context) 
+2020-06-07 17:00:25.8565||WARN|Ocelot.Responder.Middleware.ResponderMiddleware|requestId: 0HM0ATC72OQ8F:00000004, previousRequestId: no previous request id, message: Error Code: UnableToCompleteRequestError Message: Error making http request, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.CreateConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.WaitForCreatedConnectionAsync(ValueTask`1 creationTask)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(DownstreamContext context) errors found in ResponderMiddleware. Setting error response for request path:/api/SendCheque, request method: GET 
+2020-06-07 17:00:25.8565||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4055.7896ms 404  
+2020-06-07 17:14:48.3396||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/aq/Account   
+2020-06-07 17:14:48.4983||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATKHENI1E:00000001, previousRequestId: no previous request id, message: /api/aq/Account is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 17:14:48.4983||WARN|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATKHENI1E:00000001, previousRequestId: no previous request id, message: Client has NOT been authenticated for /api/aq/Account and pipeline error set. Request for authenticated route /api/aq/Account by  was unauthenticated 
+2020-06-07 17:14:48.4983||WARN|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATKHENI1E:00000001, previousRequestId: no previous request id, message: Request for authenticated route /api/aq/Account by  was unauthenticated 
+2020-06-07 17:14:48.5106||WARN|Ocelot.Responder.Middleware.ResponderMiddleware|requestId: 0HM0ATKHENI1E:00000001, previousRequestId: no previous request id, message: Error Code: UnauthenticatedError Message: Request for authenticated route /api/aq/Account by  was unauthenticated errors found in ResponderMiddleware. Setting error response for request path:/api/aq/Account, request method: GET 
+2020-06-07 17:14:48.5530||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 228.9814ms 401  
+2020-06-07 17:14:55.8798||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 17:14:55.8798||INFO|Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware|requestId: 0HM0ATKHENI1F:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/auth 
+2020-06-07 17:14:55.8798||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATKHENI1F:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/auth 
+2020-06-07 17:14:55.8868||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATKHENI1F:00000001, previousRequestId: no previous request id, message: /api/auth route does not require user to be authorised 
+2020-06-07 17:14:56.5775||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 697.6741ms 200 application/json; charset=utf-8 
+2020-06-07 17:15:03.1706||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/aq/Account   
+2020-06-07 17:15:03.2357||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 17:15:03.2426||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 17:15:03.2426||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATKHENI1E:00000002, previousRequestId: no previous request id, message: /api/aq/Account is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 17:15:03.2426||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 17:15:03.2426||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATKHENI1E:00000002, previousRequestId: no previous request id, message: Client has been authenticated for /api/aq/Account 
+2020-06-07 17:15:03.2426||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATKHENI1E:00000002, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-07 17:15:03.2426||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATKHENI1E:00000002, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-07 17:15:03.2426||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATKHENI1E:00000002, previousRequestId: no previous request id, message: /api/aq/Account route does not require user to be authorised 
+2020-06-07 17:15:03.4898||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 319.2569ms 200 application/json; charset=utf-8 
+2020-06-07 17:15:11.8816||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 17:15:11.8816||INFO|Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware|requestId: 0HM0ATKHENI1G:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/auth 
+2020-06-07 17:15:11.8816||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATKHENI1G:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/auth 
+2020-06-07 17:15:11.8816||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATKHENI1G:00000001, previousRequestId: no previous request id, message: /api/auth route does not require user to be authorised 
+2020-06-07 17:15:11.8883||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6.7791ms 200 application/json; charset=utf-8 
+2020-06-07 17:15:14.4268||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/Account/1088750011   
+2020-06-07 17:15:14.4268||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 17:15:14.4268||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 17:15:14.4268||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATKHENI1E:00000003, previousRequestId: no previous request id, message: /Account/1088750011 is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 17:15:14.4268||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 17:15:14.4268||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATKHENI1E:00000003, previousRequestId: no previous request id, message: Client has been authenticated for /Account/1088750011 
+2020-06-07 17:15:14.4268||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATKHENI1E:00000003, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-07 17:15:14.4308||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATKHENI1E:00000003, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-07 17:15:14.4308||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATKHENI1E:00000003, previousRequestId: no previous request id, message: /api/aq/Account/{ACCNO} route does not require user to be authorised 
+2020-06-07 17:15:15.3456||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 918.8055ms 200 application/json; charset=utf-8 
+2020-06-07 17:15:25.9359||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 17:15:25.9359||INFO|Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware|requestId: 0HM0ATKHENI1H:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/auth 
+2020-06-07 17:15:25.9359||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATKHENI1H:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/auth 
+2020-06-07 17:15:25.9359||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATKHENI1H:00000001, previousRequestId: no previous request id, message: /api/auth route does not require user to be authorised 
+2020-06-07 17:15:25.9359||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.284ms 200 application/json; charset=utf-8 
+2020-06-07 17:15:28.0387||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/SendCheque   
+2020-06-07 17:15:28.0387||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 17:15:28.0401||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 17:15:28.0401||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATKHENI1E:00000004, previousRequestId: no previous request id, message: /api/SendCheque is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 17:15:28.0401||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 17:15:28.0401||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATKHENI1E:00000004, previousRequestId: no previous request id, message: Client has been authenticated for /api/SendCheque 
+2020-06-07 17:15:28.0401||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATKHENI1E:00000004, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-07 17:15:28.0401||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATKHENI1E:00000004, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-07 17:15:28.0401||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATKHENI1E:00000004, previousRequestId: no previous request id, message: /api/cd/SendCheque route does not require user to be authorised 
+2020-06-07 17:15:32.0765||WARN|Ocelot.Requester.Middleware.HttpRequesterMiddleware|requestId: 0HM0ATKHENI1E:00000004, previousRequestId: no previous request id, message: Error making http request, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.CreateConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.WaitForCreatedConnectionAsync(ValueTask`1 creationTask)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(DownstreamContext context) 
+2020-06-07 17:15:32.0765||WARN|Ocelot.Responder.Middleware.ResponderMiddleware|requestId: 0HM0ATKHENI1E:00000004, previousRequestId: no previous request id, message: Error Code: UnableToCompleteRequestError Message: Error making http request, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.CreateConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.WaitForCreatedConnectionAsync(ValueTask`1 creationTask)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(DownstreamContext context) errors found in ResponderMiddleware. Setting error response for request path:/api/SendCheque, request method: GET 
+2020-06-07 17:15:32.0765||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4038.8867ms 404  
+2020-06-07 17:17:47.2836||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/aq/Account   
+2020-06-07 17:17:47.2836||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATKHENI1I:00000001, previousRequestId: no previous request id, message: /api/aq/Account is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 17:17:47.2836||WARN|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATKHENI1I:00000001, previousRequestId: no previous request id, message: Client has NOT been authenticated for /api/aq/Account and pipeline error set. Request for authenticated route /api/aq/Account by  was unauthenticated 
+2020-06-07 17:17:47.2836||WARN|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATKHENI1I:00000001, previousRequestId: no previous request id, message: Request for authenticated route /api/aq/Account by  was unauthenticated 
+2020-06-07 17:17:47.2836||WARN|Ocelot.Responder.Middleware.ResponderMiddleware|requestId: 0HM0ATKHENI1I:00000001, previousRequestId: no previous request id, message: Error Code: UnauthenticatedError Message: Request for authenticated route /api/aq/Account by  was unauthenticated errors found in ResponderMiddleware. Setting error response for request path:/api/aq/Account, request method: GET 
+2020-06-07 17:17:47.2836||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.7166ms 401  
+2020-06-07 17:17:53.5452||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 17:17:53.5452||INFO|Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware|requestId: 0HM0ATKHENI1J:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/auth 
+2020-06-07 17:17:53.5452||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATKHENI1J:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/auth 
+2020-06-07 17:17:53.5452||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATKHENI1J:00000001, previousRequestId: no previous request id, message: /api/auth route does not require user to be authorised 
+2020-06-07 17:17:53.5452||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.4036ms 200 application/json; charset=utf-8 
+2020-06-07 17:17:59.4736||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/aq/Account   
+2020-06-07 17:17:59.4736||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 17:17:59.4736||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 17:17:59.4736||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATKHENI1I:00000002, previousRequestId: no previous request id, message: /api/aq/Account is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 17:17:59.4736||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 17:17:59.4736||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATKHENI1I:00000002, previousRequestId: no previous request id, message: Client has been authenticated for /api/aq/Account 
+2020-06-07 17:17:59.4736||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATKHENI1I:00000002, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-07 17:17:59.4736||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATKHENI1I:00000002, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-07 17:17:59.4736||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATKHENI1I:00000002, previousRequestId: no previous request id, message: /api/aq/Account route does not require user to be authorised 
+2020-06-07 17:17:59.4871||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 13.5645ms 200 application/json; charset=utf-8 
+2020-06-07 17:18:05.7800||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 17:18:05.7800||INFO|Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware|requestId: 0HM0ATKHENI1K:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/auth 
+2020-06-07 17:18:05.7800||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATKHENI1K:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/auth 
+2020-06-07 17:18:05.7800||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATKHENI1K:00000001, previousRequestId: no previous request id, message: /api/auth route does not require user to be authorised 
+2020-06-07 17:18:05.7800||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.4046ms 200 application/json; charset=utf-8 
+2020-06-07 17:18:07.9254||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/Account/1088750011   
+2020-06-07 17:18:07.9254||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 17:18:07.9254||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 17:18:07.9254||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATKHENI1I:00000003, previousRequestId: no previous request id, message: /Account/1088750011 is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 17:18:07.9254||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 17:18:07.9254||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATKHENI1I:00000003, previousRequestId: no previous request id, message: Client has been authenticated for /Account/1088750011 
+2020-06-07 17:18:07.9254||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATKHENI1I:00000003, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-07 17:18:07.9254||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATKHENI1I:00000003, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-07 17:18:07.9254||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATKHENI1I:00000003, previousRequestId: no previous request id, message: /api/aq/Account/{ACCNO} route does not require user to be authorised 
+2020-06-07 17:18:07.9680||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 42.6147ms 200 application/json; charset=utf-8 
+2020-06-07 17:18:21.7563||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 17:18:21.7563||INFO|Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware|requestId: 0HM0ATKHENI1L:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/auth 
+2020-06-07 17:18:21.7563||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATKHENI1L:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/auth 
+2020-06-07 17:18:21.7563||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATKHENI1L:00000001, previousRequestId: no previous request id, message: /api/auth route does not require user to be authorised 
+2020-06-07 17:18:21.7596||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.3111ms 200 application/json; charset=utf-8 
+2020-06-07 17:18:31.3893||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/SendCheque   
+2020-06-07 17:18:31.3893||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 17:18:31.3893||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 17:18:31.3893||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATKHENI1I:00000004, previousRequestId: no previous request id, message: /api/SendCheque is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 17:18:31.3893||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 17:18:31.3893||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0ATKHENI1I:00000004, previousRequestId: no previous request id, message: Client has been authenticated for /api/SendCheque 
+2020-06-07 17:18:31.3893||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATKHENI1I:00000004, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-07 17:18:31.3893||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATKHENI1I:00000004, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-07 17:18:31.3893||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0ATKHENI1I:00000004, previousRequestId: no previous request id, message: /api/cd/SendCheque route does not require user to be authorised 
+2020-06-07 17:18:31.6242||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 234.9025ms 200 application/json; charset=utf-8 
+2020-06-07 21:24:58.7743||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/aq/Account   
+2020-06-07 21:24:59.1057||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0B20ARU1S1:00000001, previousRequestId: no previous request id, message: /api/aq/Account is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 21:24:59.1057||WARN|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0B20ARU1S1:00000001, previousRequestId: no previous request id, message: Client has NOT been authenticated for /api/aq/Account and pipeline error set. Request for authenticated route /api/aq/Account by  was unauthenticated 
+2020-06-07 21:24:59.1057||WARN|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0B20ARU1S1:00000001, previousRequestId: no previous request id, message: Request for authenticated route /api/aq/Account by  was unauthenticated 
+2020-06-07 21:24:59.1231||WARN|Ocelot.Responder.Middleware.ResponderMiddleware|requestId: 0HM0B20ARU1S1:00000001, previousRequestId: no previous request id, message: Error Code: UnauthenticatedError Message: Request for authenticated route /api/aq/Account by  was unauthenticated errors found in ResponderMiddleware. Setting error response for request path:/api/aq/Account, request method: GET 
+2020-06-07 21:24:59.1654||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 461.1299ms 401  
+2020-06-07 21:25:03.0967||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 21:25:03.0967||INFO|Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware|requestId: 0HM0B20ARU1S2:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/auth 
+2020-06-07 21:25:03.0967||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0B20ARU1S2:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/auth 
+2020-06-07 21:25:03.1035||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0B20ARU1S2:00000001, previousRequestId: no previous request id, message: /api/auth route does not require user to be authorised 
+2020-06-07 21:25:04.2085||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1111.7982ms 200 application/json; charset=utf-8 
+2020-06-07 21:25:06.7635||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/aq/Account   
+2020-06-07 21:25:06.8197||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 21:25:06.8243||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 21:25:06.8243||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0B20ARU1S1:00000002, previousRequestId: no previous request id, message: /api/aq/Account is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 21:25:06.8243||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 21:25:06.8243||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0B20ARU1S1:00000002, previousRequestId: no previous request id, message: Client has been authenticated for /api/aq/Account 
+2020-06-07 21:25:06.8243||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0B20ARU1S1:00000002, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-07 21:25:06.8243||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0B20ARU1S1:00000002, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-07 21:25:06.8243||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0B20ARU1S1:00000002, previousRequestId: no previous request id, message: /api/aq/Account route does not require user to be authorised 
+2020-06-07 21:25:08.2239||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1460.4777ms 200 application/json; charset=utf-8 
+2020-06-07 21:25:10.2500||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 21:25:10.2500||INFO|Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware|requestId: 0HM0B20ARU1S3:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/auth 
+2020-06-07 21:25:10.2500||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0B20ARU1S3:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/auth 
+2020-06-07 21:25:10.2500||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0B20ARU1S3:00000001, previousRequestId: no previous request id, message: /api/auth route does not require user to be authorised 
+2020-06-07 21:25:10.2500||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6.004ms 200 application/json; charset=utf-8 
+2020-06-07 21:25:10.7008||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/Account/1088750011   
+2020-06-07 21:25:10.7008||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 21:25:10.7008||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 21:25:10.7008||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0B20ARU1S1:00000003, previousRequestId: no previous request id, message: /Account/1088750011 is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 21:25:10.7008||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 21:25:10.7008||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0B20ARU1S1:00000003, previousRequestId: no previous request id, message: Client has been authenticated for /Account/1088750011 
+2020-06-07 21:25:10.7008||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0B20ARU1S1:00000003, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-07 21:25:10.7008||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0B20ARU1S1:00000003, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-07 21:25:10.7008||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0B20ARU1S1:00000003, previousRequestId: no previous request id, message: /api/aq/Account/{ACCNO} route does not require user to be authorised 
+2020-06-07 21:25:14.8881||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4187.2117ms 200 application/json; charset=utf-8 
+2020-06-07 21:25:41.6521||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/auth?name=sam&pwd=123   
+2020-06-07 21:25:41.6521||INFO|Ocelot.RateLimit.Middleware.ClientRateLimitMiddleware|requestId: 0HM0B20ARU1S4:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/auth 
+2020-06-07 21:25:41.6521||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0B20ARU1S4:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/auth 
+2020-06-07 21:25:41.6521||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0B20ARU1S4:00000001, previousRequestId: no previous request id, message: /api/auth route does not require user to be authorised 
+2020-06-07 21:25:41.6521||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.7365ms 200 application/json; charset=utf-8 
+2020-06-07 21:25:42.5392||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:9000/api/SendCheque   
+2020-06-07 21:25:42.5402||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-07 21:25:42.5402||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 21:25:42.5402||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0B20ARU1S1:00000004, previousRequestId: no previous request id, message: /api/SendCheque is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-07 21:25:42.5402||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-07 21:25:42.5402||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0B20ARU1S1:00000004, previousRequestId: no previous request id, message: Client has been authenticated for /api/SendCheque 
+2020-06-07 21:25:42.5402||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0B20ARU1S1:00000004, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-07 21:25:42.5402||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0B20ARU1S1:00000004, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-07 21:25:42.5402||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0B20ARU1S1:00000004, previousRequestId: no previous request id, message: /api/cd/SendCheque route does not require user to be authorised 
+2020-06-07 21:25:46.9419||WARN|Ocelot.Requester.Middleware.HttpRequesterMiddleware|requestId: 0HM0B20ARU1S1:00000004, previousRequestId: no previous request id, message: Error making http request, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.CreateConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.WaitForCreatedConnectionAsync(ValueTask`1 creationTask)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(DownstreamContext context) 
+2020-06-07 21:25:46.9419||WARN|Ocelot.Responder.Middleware.ResponderMiddleware|requestId: 0HM0B20ARU1S1:00000004, previousRequestId: no previous request id, message: Error Code: UnableToCompleteRequestError Message: Error making http request, exception: System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.CreateConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.WaitForCreatedConnectionAsync(ValueTask`1 creationTask)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(DownstreamContext context) errors found in ResponderMiddleware. Setting error response for request path:/api/SendCheque, request method: GET 
+2020-06-07 21:25:46.9419||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4404.4327ms 404  

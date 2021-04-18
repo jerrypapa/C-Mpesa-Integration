@@ -1,0 +1,42 @@
+D:\Payments\MpesaApi\CallBackApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Payments\MpesaApi\CallBackApi\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Payments\MpesaApi\CallBackApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Payments\MpesaApi\CallBackApi\bin\Debug\netcoreapp3.1\CallBackApi.exe
+D:\Payments\MpesaApi\CallBackApi\bin\Debug\netcoreapp3.1\CallBackApi.deps.json
+D:\Payments\MpesaApi\CallBackApi\bin\Debug\netcoreapp3.1\CallBackApi.runtimeconfig.json
+D:\Payments\MpesaApi\CallBackApi\bin\Debug\netcoreapp3.1\CallBackApi.runtimeconfig.dev.json
+D:\Payments\MpesaApi\CallBackApi\bin\Debug\netcoreapp3.1\CallBackApi.dll
+D:\Payments\MpesaApi\CallBackApi\bin\Debug\netcoreapp3.1\CallBackApi.pdb
+D:\Payments\MpesaApi\CallBackApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Payments\MpesaApi\CallBackApi\obj\Debug\netcoreapp3.1\CallBackApi.csprojAssemblyReference.cache
+D:\Payments\MpesaApi\CallBackApi\obj\Debug\netcoreapp3.1\CallBackApi.AssemblyInfoInputs.cache
+D:\Payments\MpesaApi\CallBackApi\obj\Debug\netcoreapp3.1\CallBackApi.AssemblyInfo.cs
+D:\Payments\MpesaApi\CallBackApi\obj\Debug\netcoreapp3.1\CallBackApi.RazorTargetAssemblyInfo.cache
+D:\Payments\MpesaApi\CallBackApi\obj\Debug\netcoreapp3.1\CallBackApi.csproj.CopyComplete
+D:\Payments\MpesaApi\CallBackApi\obj\Debug\netcoreapp3.1\staticwebassets\CallBackApi.StaticWebAssets.Manifest.cache
+D:\Payments\MpesaApi\CallBackApi\obj\Debug\netcoreapp3.1\staticwebassets\CallBackApi.StaticWebAssets.xml
+D:\Payments\MpesaApi\CallBackApi\obj\Debug\netcoreapp3.1\CallBackApi.dll
+D:\Payments\MpesaApi\CallBackApi\obj\Debug\netcoreapp3.1\CallBackApi.pdb
+D:\Payments\MpesaApi\CallBackApi\obj\Debug\netcoreapp3.1\CallBackApi.genruntimeconfig.cache
+D:\Great Vision\MpesaApi\CallBackApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Great Vision\MpesaApi\CallBackApi\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Great Vision\MpesaApi\CallBackApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Great Vision\MpesaApi\CallBackApi\bin\Debug\netcoreapp3.1\CallBackApi.exe
+D:\Great Vision\MpesaApi\CallBackApi\bin\Debug\netcoreapp3.1\CallBackApi.deps.json
+D:\Great Vision\MpesaApi\CallBackApi\bin\Debug\netcoreapp3.1\CallBackApi.runtimeconfig.json
+D:\Great Vision\MpesaApi\CallBackApi\bin\Debug\netcoreapp3.1\CallBackApi.runtimeconfig.dev.json
+D:\Great Vision\MpesaApi\CallBackApi\bin\Debug\netcoreapp3.1\CallBackApi.dll
+D:\Great Vision\MpesaApi\CallBackApi\bin\Debug\netcoreapp3.1\CallBackApi.pdb
+D:\Great Vision\MpesaApi\CallBackApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Great Vision\MpesaApi\CallBackApi\obj\Debug\netcoreapp3.1\CallBackApi.AssemblyInfoInputs.cache
+D:\Great Vision\MpesaApi\CallBackApi\obj\Debug\netcoreapp3.1\CallBackApi.AssemblyInfo.cs
+D:\Great Vision\MpesaApi\CallBackApi\obj\Debug\netcoreapp3.1\CallBackApi.csproj.CoreCompileInputs.cache
+D:\Great Vision\MpesaApi\CallBackApi\obj\Debug\netcoreapp3.1\CallBackApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Great Vision\MpesaApi\CallBackApi\obj\Debug\netcoreapp3.1\CallBackApi.RazorTargetAssemblyInfo.cache
+D:\Great Vision\MpesaApi\CallBackApi\obj\Debug\netcoreapp3.1\CallBackApi.csproj.CopyComplete
+D:\Great Vision\MpesaApi\CallBackApi\obj\Debug\netcoreapp3.1\staticwebassets\CallBackApi.StaticWebAssets.Manifest.cache
+D:\Great Vision\MpesaApi\CallBackApi\obj\Debug\netcoreapp3.1\staticwebassets\CallBackApi.StaticWebAssets.xml
+D:\Great Vision\MpesaApi\CallBackApi\obj\Debug\netcoreapp3.1\CallBackApi.dll
+D:\Great Vision\MpesaApi\CallBackApi\obj\Debug\netcoreapp3.1\CallBackApi.pdb
+D:\Great Vision\MpesaApi\CallBackApi\obj\Debug\netcoreapp3.1\CallBackApi.genruntimeconfig.cache
+D:\Great Vision\MpesaApi\CallBackApi\obj\Debug\netcoreapp3.1\CallBackApi.csprojAssemblyReference.cache

@@ -1,0 +1,109 @@
+C:\Users\samth\Desktop\OcelotExample\KioskApi\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.dll
+C:\Users\samth\Desktop\OcelotExample\KioskApi\APIGateway\bin\Debug\netcoreapp2.0\Nlog.config
+C:\Users\samth\Desktop\OcelotExample\KioskApi\APIGateway\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\samth\Desktop\OcelotExample\KioskApi\APIGateway\bin\Debug\netcoreapp2.0\configuration.json
+C:\Users\samth\Desktop\OcelotExample\KioskApi\APIGateway\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\samth\Desktop\OcelotExample\KioskApi\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.deps.json
+C:\Users\samth\Desktop\OcelotExample\KioskApi\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.runtimeconfig.json
+C:\Users\samth\Desktop\OcelotExample\KioskApi\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.runtimeconfig.dev.json
+C:\Users\samth\Desktop\OcelotExample\KioskApi\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.csprojAssemblyReference.cache
+C:\Users\samth\Desktop\OcelotExample\KioskApi\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.AssemblyInfoInputs.cache
+C:\Users\samth\Desktop\OcelotExample\KioskApi\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.AssemblyInfo.cs
+C:\Users\samth\Desktop\OcelotExample\KioskApi\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.csproj.CoreCompileInputs.cache
+C:\Users\samth\Desktop\OcelotExample\KioskApi\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.dll
+C:\Users\samth\Desktop\OcelotExample\KioskApi\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.pdb
+C:\Users\samth\Desktop\OcelotExample\KioskApi\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.genruntimeconfig.cache
+C:\Users\samth\Desktop\OcelotExample\KioskApi\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.pdb
+C:\Users\samth\source\repos\CHQPNT\APIGateway\bin\Debug\netcoreapp2.0\Nlog.config
+C:\Users\samth\source\repos\CHQPNT\APIGateway\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\samth\source\repos\CHQPNT\APIGateway\bin\Debug\netcoreapp2.0\configuration.json
+C:\Users\samth\source\repos\CHQPNT\APIGateway\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\samth\source\repos\CHQPNT\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.deps.json
+C:\Users\samth\source\repos\CHQPNT\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.runtimeconfig.json
+C:\Users\samth\source\repos\CHQPNT\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.runtimeconfig.dev.json
+C:\Users\samth\source\repos\CHQPNT\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.dll
+C:\Users\samth\source\repos\CHQPNT\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.pdb
+C:\Users\samth\source\repos\CHQPNT\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.AssemblyInfoInputs.cache
+C:\Users\samth\source\repos\CHQPNT\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.AssemblyInfo.cs
+C:\Users\samth\source\repos\CHQPNT\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.csproj.CoreCompileInputs.cache
+C:\Users\samth\source\repos\CHQPNT\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.dll
+C:\Users\samth\source\repos\CHQPNT\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.pdb
+C:\Users\samth\source\repos\CHQPNT\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.genruntimeconfig.cache
+C:\Users\samth\Desktop\OcelotExample\Smart Kiosk\APIGateway\bin\Debug\netcoreapp2.0\Nlog.config
+C:\Users\samth\Desktop\OcelotExample\Smart Kiosk\APIGateway\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\samth\Desktop\OcelotExample\Smart Kiosk\APIGateway\bin\Debug\netcoreapp2.0\configuration.json
+C:\Users\samth\Desktop\OcelotExample\Smart Kiosk\APIGateway\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\samth\Desktop\OcelotExample\Smart Kiosk\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.deps.json
+C:\Users\samth\Desktop\OcelotExample\Smart Kiosk\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.runtimeconfig.json
+C:\Users\samth\Desktop\OcelotExample\Smart Kiosk\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.runtimeconfig.dev.json
+C:\Users\samth\Desktop\OcelotExample\Smart Kiosk\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.dll
+C:\Users\samth\Desktop\OcelotExample\Smart Kiosk\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.pdb
+C:\Users\samth\Desktop\OcelotExample\Smart Kiosk\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.AssemblyInfoInputs.cache
+C:\Users\samth\Desktop\OcelotExample\Smart Kiosk\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.AssemblyInfo.cs
+C:\Users\samth\Desktop\OcelotExample\Smart Kiosk\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.csproj.CoreCompileInputs.cache
+C:\Users\samth\Desktop\OcelotExample\Smart Kiosk\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.dll
+C:\Users\samth\Desktop\OcelotExample\Smart Kiosk\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.pdb
+C:\Users\samth\Desktop\OcelotExample\Smart Kiosk\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.genruntimeconfig.cache
+C:\Users\samth\Desktop\OcelotExample\SmartKioakAPI\APIGateway\bin\Debug\netcoreapp2.0\Nlog.config
+C:\Users\samth\Desktop\OcelotExample\SmartKioakAPI\APIGateway\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\samth\Desktop\OcelotExample\SmartKioakAPI\APIGateway\bin\Debug\netcoreapp2.0\configuration.json
+C:\Users\samth\Desktop\OcelotExample\SmartKioakAPI\APIGateway\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\samth\Desktop\OcelotExample\SmartKioakAPI\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.deps.json
+C:\Users\samth\Desktop\OcelotExample\SmartKioakAPI\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.runtimeconfig.json
+C:\Users\samth\Desktop\OcelotExample\SmartKioakAPI\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.runtimeconfig.dev.json
+C:\Users\samth\Desktop\OcelotExample\SmartKioakAPI\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.dll
+C:\Users\samth\Desktop\OcelotExample\SmartKioakAPI\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.pdb
+C:\Users\samth\Desktop\OcelotExample\SmartKioakAPI\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.AssemblyInfoInputs.cache
+C:\Users\samth\Desktop\OcelotExample\SmartKioakAPI\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.AssemblyInfo.cs
+C:\Users\samth\Desktop\OcelotExample\SmartKioakAPI\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.csproj.CoreCompileInputs.cache
+C:\Users\samth\Desktop\OcelotExample\SmartKioakAPI\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.dll
+C:\Users\samth\Desktop\OcelotExample\SmartKioakAPI\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.pdb
+C:\Users\samth\Desktop\OcelotExample\SmartKioakAPI\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.genruntimeconfig.cache
+C:\Users\samth\Desktop\OcelotExample\SmartKioakAPI\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.csprojAssemblyReference.cache
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\APIGateway\bin\Debug\netcoreapp2.0\Nlog.config
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\APIGateway\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\APIGateway\bin\Debug\netcoreapp2.0\configuration.json
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\APIGateway\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.deps.json
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.runtimeconfig.json
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.runtimeconfig.dev.json
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.dll
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.pdb
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.AssemblyInfoInputs.cache
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.AssemblyInfo.cs
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.csproj.CoreCompileInputs.cache
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.dll
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.pdb
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.genruntimeconfig.cache
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.csprojAssemblyReference.cache
+D:\Payments\MpesaApi\APIGateway\bin\Debug\netcoreapp2.0\Nlog.config
+D:\Payments\MpesaApi\APIGateway\bin\Debug\netcoreapp2.0\appsettings.json
+D:\Payments\MpesaApi\APIGateway\bin\Debug\netcoreapp2.0\configuration.json
+D:\Payments\MpesaApi\APIGateway\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+D:\Payments\MpesaApi\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.deps.json
+D:\Payments\MpesaApi\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.runtimeconfig.json
+D:\Payments\MpesaApi\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.runtimeconfig.dev.json
+D:\Payments\MpesaApi\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.dll
+D:\Payments\MpesaApi\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.pdb
+D:\Payments\MpesaApi\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.csprojAssemblyReference.cache
+D:\Payments\MpesaApi\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.AssemblyInfoInputs.cache
+D:\Payments\MpesaApi\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.AssemblyInfo.cs
+D:\Payments\MpesaApi\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.dll
+D:\Payments\MpesaApi\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.pdb
+D:\Payments\MpesaApi\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.genruntimeconfig.cache
+D:\Great Vision\MpesaApi\APIGateway\bin\Debug\netcoreapp2.0\Nlog.config
+D:\Great Vision\MpesaApi\APIGateway\bin\Debug\netcoreapp2.0\appsettings.json
+D:\Great Vision\MpesaApi\APIGateway\bin\Debug\netcoreapp2.0\configuration.json
+D:\Great Vision\MpesaApi\APIGateway\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+D:\Great Vision\MpesaApi\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.deps.json
+D:\Great Vision\MpesaApi\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.runtimeconfig.json
+D:\Great Vision\MpesaApi\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.runtimeconfig.dev.json
+D:\Great Vision\MpesaApi\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.dll
+D:\Great Vision\MpesaApi\APIGateway\bin\Debug\netcoreapp2.0\APIGateway.pdb
+D:\Great Vision\MpesaApi\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.AssemblyInfoInputs.cache
+D:\Great Vision\MpesaApi\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.AssemblyInfo.cs
+D:\Great Vision\MpesaApi\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.csproj.CoreCompileInputs.cache
+D:\Great Vision\MpesaApi\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.dll
+D:\Great Vision\MpesaApi\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.pdb
+D:\Great Vision\MpesaApi\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.genruntimeconfig.cache
+D:\Great Vision\MpesaApi\APIGateway\obj\Debug\netcoreapp2.0\APIGateway.csprojAssemblyReference.cache

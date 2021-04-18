@@ -1,0 +1,17 @@
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\AuthServer\bin\Release\netcoreapp2.0\win-x64\appsettings.json
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\AuthServer\bin\Release\netcoreapp2.0\win-x64\Properties\launchSettings.json
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\AuthServer\bin\Release\netcoreapp2.0\win-x64\hostpolicy.dll
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\AuthServer\bin\Release\netcoreapp2.0\win-x64\hostfxr.dll
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\AuthServer\bin\Release\netcoreapp2.0\win-x64\AuthServer.exe
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\AuthServer\bin\Release\netcoreapp2.0\win-x64\AuthServer.deps.json
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\AuthServer\bin\Release\netcoreapp2.0\win-x64\AuthServer.runtimeconfig.json
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\AuthServer\bin\Release\netcoreapp2.0\win-x64\AuthServer.runtimeconfig.dev.json
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\AuthServer\bin\Release\netcoreapp2.0\win-x64\AuthServer.dll
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\AuthServer\bin\Release\netcoreapp2.0\win-x64\AuthServer.pdb
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\AuthServer\obj\Release\netcoreapp2.0\win-x64\AuthServer.csprojAssemblyReference.cache
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\AuthServer\obj\Release\netcoreapp2.0\win-x64\AuthServer.AssemblyInfoInputs.cache
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\AuthServer\obj\Release\netcoreapp2.0\win-x64\AuthServer.AssemblyInfo.cs
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\AuthServer\obj\Release\netcoreapp2.0\win-x64\AuthServer.csproj.CoreCompileInputs.cache
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\AuthServer\obj\Release\netcoreapp2.0\win-x64\AuthServer.dll
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\AuthServer\obj\Release\netcoreapp2.0\win-x64\AuthServer.pdb
+C:\Users\samth\Desktop\OcelotExample\SmartKioskAPI\AuthServer\obj\Release\netcoreapp2.0\win-x64\AuthServer.genruntimeconfig.cache

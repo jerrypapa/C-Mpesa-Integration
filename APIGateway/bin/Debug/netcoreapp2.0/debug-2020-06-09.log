@@ -1,0 +1,232 @@
+2020-06-09 16:10:57.6104||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:9000/api/cd/SendChequet application/json 391 
+2020-06-09 16:10:58.2575||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-09 16:10:58.2646||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-09 16:10:58.4629||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CEQ65F2GH:00000001, previousRequestId: no previous request id, message: /api/cd/SendChequet is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-09 16:10:58.4629||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-09 16:10:58.4629||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CEQ65F2GH:00000001, previousRequestId: no previous request id, message: Client has been authenticated for /api/cd/SendChequet 
+2020-06-09 16:10:58.4709||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CEQ65F2GH:00000001, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-09 16:10:58.4709||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CEQ65F2GH:00000001, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-09 16:10:58.4709||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CEQ65F2GH:00000001, previousRequestId: no previous request id, message: /api/cd/SendCheque route does not require user to be authorised 
+2020-06-09 16:10:59.3735||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1802.6761ms 400 application/problem+json; charset=utf-8 
+2020-06-09 16:12:58.2473||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:9000/api/cd/SendChequet application/json 391 
+2020-06-09 16:12:58.8051||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Failed to validate the token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzYW0iLCJqdGkiOiI2ODA5OTk0NS00YmU0LTQ1MmEtOTdlZS04NTZlNjcxYjRjOGIiLCJpYXQiOiI2LzkvMjAyMCAxOjEwOjMyIFBNIiwibmJmIjoxNTkxNzA4MjMyLCJleHAiOjE1OTE3MDgzNTIsImlzcyI6Imh0dHA6Ly93d3cuYy1zaGFycGNvcm5lci5jb20iLCJhdWQiOiJTYW11ZWwgV2FpbmFpbmEifQ.vLuNAC2U8RYlXB8dr4tfs51nDekEWB0t44X_IympIa8. IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '06/09/2020 13:12:32'
+Current time: '06/09/2020 13:12:58'.
+2020-06-09 16:12:58.8113||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|TestKey was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '06/09/2020 13:12:32'
+Current time: '06/09/2020 13:12:58'. 
+2020-06-09 16:12:58.8113||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CEQ65F2GH:00000002, previousRequestId: no previous request id, message: /api/cd/SendChequet is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-09 16:12:58.8113||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|TestKey was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '06/09/2020 13:12:32'
+Current time: '06/09/2020 13:12:58'. 
+2020-06-09 16:12:58.8113||WARN|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CEQ65F2GH:00000002, previousRequestId: no previous request id, message: Client has NOT been authenticated for /api/cd/SendChequet and pipeline error set. Request for authenticated route /api/cd/SendChequet by  was unauthenticated 
+2020-06-09 16:12:58.8113||WARN|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CEQ65F2GH:00000002, previousRequestId: no previous request id, message: Request for authenticated route /api/cd/SendChequet by  was unauthenticated 
+2020-06-09 16:12:58.8113||WARN|Ocelot.Responder.Middleware.ResponderMiddleware|requestId: 0HM0CEQ65F2GH:00000002, previousRequestId: no previous request id, message: Error Code: UnauthenticatedError Message: Request for authenticated route /api/cd/SendChequet by  was unauthenticated errors found in ResponderMiddleware. Setting error response for request path:/api/cd/SendChequet, request method: POST 
+2020-06-09 16:12:58.8113||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 573.9253ms 401  
+2020-06-09 16:13:28.6868||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:9000/api/cd/SendChequet application/json 391 
+2020-06-09 16:13:28.7080||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-09 16:13:28.7080||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-09 16:13:28.7080||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CEQ65F2GH:00000003, previousRequestId: no previous request id, message: /api/cd/SendChequet is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-09 16:13:28.7080||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-09 16:13:28.7080||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CEQ65F2GH:00000003, previousRequestId: no previous request id, message: Client has been authenticated for /api/cd/SendChequet 
+2020-06-09 16:13:28.7080||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CEQ65F2GH:00000003, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-09 16:13:28.7080||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CEQ65F2GH:00000003, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-09 16:13:28.7080||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CEQ65F2GH:00000003, previousRequestId: no previous request id, message: /api/cd/SendCheque route does not require user to be authorised 
+2020-06-09 16:13:29.1342||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 447.4232ms 400 application/problem+json; charset=utf-8 
+2020-06-09 16:14:48.3871||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:9000/api/cd/SendChequet application/json 394 
+2020-06-09 16:14:48.3871||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-09 16:14:48.3886||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-09 16:14:48.3886||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CEQ65F2GH:00000004, previousRequestId: no previous request id, message: /api/cd/SendChequet is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-09 16:14:48.3886||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-09 16:14:48.3886||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CEQ65F2GH:00000004, previousRequestId: no previous request id, message: Client has been authenticated for /api/cd/SendChequet 
+2020-06-09 16:14:48.3886||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CEQ65F2GH:00000004, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-09 16:14:48.3886||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CEQ65F2GH:00000004, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-09 16:14:48.3886||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CEQ65F2GH:00000004, previousRequestId: no previous request id, message: /api/cd/SendCheque route does not require user to be authorised 
+2020-06-09 16:15:03.2312||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 14844.0846ms 500 text/plain 
+2020-06-09 16:21:01.7509||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:9000/api/cd/SendChequet application/json 393 
+2020-06-09 16:21:01.7919||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-09 16:21:01.7919||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-09 16:21:01.7962||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CEQ65F2GI:00000001, previousRequestId: no previous request id, message: /api/cd/SendChequet is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-09 16:21:01.7962||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-09 16:21:01.7962||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CEQ65F2GI:00000001, previousRequestId: no previous request id, message: Client has been authenticated for /api/cd/SendChequet 
+2020-06-09 16:21:01.7962||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CEQ65F2GI:00000001, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-09 16:21:01.7962||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CEQ65F2GI:00000001, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-09 16:21:01.7962||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CEQ65F2GI:00000001, previousRequestId: no previous request id, message: /api/cd/SendCheque route does not require user to be authorised 
+2020-06-09 16:21:25.2015||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 23450.6289ms 500 text/plain 
+2020-06-09 16:38:01.6745||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:9000/api/cd/SendChequet application/json 393 
+2020-06-09 16:38:02.0584||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-09 16:38:02.0640||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-09 16:38:02.2471||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CF9A6QG5K:00000001, previousRequestId: no previous request id, message: /api/cd/SendChequet is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-09 16:38:02.2476||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-09 16:38:02.2476||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CF9A6QG5K:00000001, previousRequestId: no previous request id, message: Client has been authenticated for /api/cd/SendChequet 
+2020-06-09 16:38:02.2476||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG5K:00000001, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-09 16:38:02.2476||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG5K:00000001, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-09 16:38:02.2476||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG5K:00000001, previousRequestId: no previous request id, message: /api/cd/SendCheque route does not require user to be authorised 
+2020-06-09 16:38:28.9842||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 27356.4196ms 500 text/plain 
+2020-06-09 16:47:11.2245||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:9000/api/cd/SendChequet application/json 393 
+2020-06-09 16:47:11.2636||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-09 16:47:11.2636||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-09 16:47:11.4644||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CF9A6QG5N:00000001, previousRequestId: no previous request id, message: /api/cd/SendChequet is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-09 16:47:11.4644||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-09 16:47:11.4644||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CF9A6QG5N:00000001, previousRequestId: no previous request id, message: Client has been authenticated for /api/cd/SendChequet 
+2020-06-09 16:47:11.4644||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG5N:00000001, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-09 16:47:11.4644||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG5N:00000001, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-09 16:47:11.4644||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG5N:00000001, previousRequestId: no previous request id, message: /api/cd/SendCheque route does not require user to be authorised 
+2020-06-09 16:47:47.4331||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 36208.6775ms 500 text/plain 
+2020-06-09 16:47:53.0343||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:9000/api/cd/SendChequet application/json 393 
+2020-06-09 16:47:53.0343||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-09 16:47:53.0343||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-09 16:47:53.0343||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CF9A6QG5N:00000002, previousRequestId: no previous request id, message: /api/cd/SendChequet is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-09 16:47:53.0343||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-09 16:47:53.0343||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CF9A6QG5N:00000002, previousRequestId: no previous request id, message: Client has been authenticated for /api/cd/SendChequet 
+2020-06-09 16:47:53.0343||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG5N:00000002, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-09 16:47:53.0343||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG5N:00000002, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-09 16:47:53.0343||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG5N:00000002, previousRequestId: no previous request id, message: /api/cd/SendCheque route does not require user to be authorised 
+2020-06-09 16:48:34.3238||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 41289.5878ms 500 text/plain 
+2020-06-09 16:49:30.4622||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:9000/api/cd/SendChequet application/json 393 
+2020-06-09 16:49:30.9748||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Failed to validate the token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzYW0iLCJqdGkiOiJhZDA1Zjk5My00YTcyLTRhMjMtOGFlMS1iNDYzOTg4MThjOWYiLCJpYXQiOiI2LzkvMjAyMCAxOjQ2OjI2IFBNIiwibmJmIjoxNTkxNzEwMzg2LCJleHAiOjE1OTE3MTA1MDYsImlzcyI6Imh0dHA6Ly93d3cuYy1zaGFycGNvcm5lci5jb20iLCJhdWQiOiJTYW11ZWwgV2FpbmFpbmEifQ.mtSddboGxK5IC4TK1nR0Du9DT4tFY8emEfLzaJG0hLA. IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '06/09/2020 13:48:26'
+Current time: '06/09/2020 13:49:30'.
+2020-06-09 16:49:31.0015||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|TestKey was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '06/09/2020 13:48:26'
+Current time: '06/09/2020 13:49:30'. 
+2020-06-09 16:49:31.0015||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CF9A6QG5N:00000003, previousRequestId: no previous request id, message: /api/cd/SendChequet is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-09 16:49:31.0015||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|TestKey was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '06/09/2020 13:48:26'
+Current time: '06/09/2020 13:49:30'. 
+2020-06-09 16:49:31.0149||WARN|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CF9A6QG5N:00000003, previousRequestId: no previous request id, message: Client has NOT been authenticated for /api/cd/SendChequet and pipeline error set. Request for authenticated route /api/cd/SendChequet by  was unauthenticated 
+2020-06-09 16:49:31.0149||WARN|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CF9A6QG5N:00000003, previousRequestId: no previous request id, message: Request for authenticated route /api/cd/SendChequet by  was unauthenticated 
+2020-06-09 16:49:31.0344||WARN|Ocelot.Responder.Middleware.ResponderMiddleware|requestId: 0HM0CF9A6QG5N:00000003, previousRequestId: no previous request id, message: Error Code: UnauthenticatedError Message: Request for authenticated route /api/cd/SendChequet by  was unauthenticated errors found in ResponderMiddleware. Setting error response for request path:/api/cd/SendChequet, request method: POST 
+2020-06-09 16:49:31.0344||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 576.4951ms 401  
+2020-06-09 16:49:53.7339||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:9000/api/cd/SendChequet application/json 393 
+2020-06-09 16:49:53.7339||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-09 16:49:53.7339||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-09 16:49:53.7339||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CF9A6QG5N:00000004, previousRequestId: no previous request id, message: /api/cd/SendChequet is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-09 16:49:53.7339||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-09 16:49:53.7339||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CF9A6QG5N:00000004, previousRequestId: no previous request id, message: Client has been authenticated for /api/cd/SendChequet 
+2020-06-09 16:49:53.7339||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG5N:00000004, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-09 16:49:53.7339||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG5N:00000004, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-09 16:49:53.7339||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG5N:00000004, previousRequestId: no previous request id, message: /api/cd/SendCheque route does not require user to be authorised 
+2020-06-09 16:51:34.0476||WARN|Ocelot.Requester.Middleware.HttpRequesterMiddleware|requestId: 0HM0CF9A6QG5N:00000004, previousRequestId: no previous request id, message: Error making http request, exception: System.Threading.Tasks.TaskCanceledException: The operation was canceled. ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request. ---> System.Net.Sockets.SocketException: The I/O operation has been aborted because of either a thread exit or an application request
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithNtConnectionAuthAsync(HttpConnection connection, HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(DownstreamContext context) 
+2020-06-09 16:51:34.0476||WARN|Ocelot.Responder.Middleware.ResponderMiddleware|requestId: 0HM0CF9A6QG5N:00000004, previousRequestId: no previous request id, message: Error Code: UnableToCompleteRequestError Message: Error making http request, exception: System.Threading.Tasks.TaskCanceledException: The operation was canceled. ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request. ---> System.Net.Sockets.SocketException: The I/O operation has been aborted because of either a thread exit or an application request
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithNtConnectionAuthAsync(HttpConnection connection, HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Ocelot.Requester.HttpClientHttpRequester.GetResponse(DownstreamContext context) errors found in ResponderMiddleware. Setting error response for request path:/api/cd/SendChequet, request method: POST 
+2020-06-09 16:51:34.0476||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 100320.2067ms 404  
+2020-06-09 16:52:44.7674||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:9000/api/cd/SendChequet application/json 393 
+2020-06-09 16:52:44.7674||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-09 16:52:44.7674||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-09 16:52:44.7674||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CF9A6QG5N:00000005, previousRequestId: no previous request id, message: /api/cd/SendChequet is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-09 16:52:44.7674||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-09 16:52:44.7674||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CF9A6QG5N:00000005, previousRequestId: no previous request id, message: Client has been authenticated for /api/cd/SendChequet 
+2020-06-09 16:52:44.7674||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG5N:00000005, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-09 16:52:44.7674||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG5N:00000005, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-09 16:52:44.7674||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG5N:00000005, previousRequestId: no previous request id, message: /api/cd/SendCheque route does not require user to be authorised 
+2020-06-09 16:53:57.8547||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 73087.3871ms 500 text/plain 
+2020-06-09 17:00:48.2706||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:9000/api/cd/SendChequet application/json 393 
+2020-06-09 17:00:48.2706||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-09 17:00:48.2706||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-09 17:00:48.2706||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CF9A6QG5P:00000001, previousRequestId: no previous request id, message: /api/cd/SendChequet is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-09 17:00:48.2706||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-09 17:00:48.2706||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CF9A6QG5P:00000001, previousRequestId: no previous request id, message: Client has been authenticated for /api/cd/SendChequet 
+2020-06-09 17:00:48.2706||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG5P:00000001, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-09 17:00:48.2706||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG5P:00000001, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-09 17:00:48.2706||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG5P:00000001, previousRequestId: no previous request id, message: /api/cd/SendCheque route does not require user to be authorised 
+2020-06-09 17:01:03.2688||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 14998.2294ms 500 text/plain 
+2020-06-09 17:02:38.9622||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:9000/api/cd/SendChequet application/json 393 
+2020-06-09 17:02:38.9622||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-09 17:02:38.9622||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-09 17:02:38.9622||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CF9A6QG5P:00000002, previousRequestId: no previous request id, message: /api/cd/SendChequet is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-09 17:02:38.9622||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-09 17:02:38.9661||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CF9A6QG5P:00000002, previousRequestId: no previous request id, message: Client has been authenticated for /api/cd/SendChequet 
+2020-06-09 17:02:38.9661||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG5P:00000002, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-09 17:02:38.9661||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG5P:00000002, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-09 17:02:38.9661||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG5P:00000002, previousRequestId: no previous request id, message: /api/cd/SendCheque route does not require user to be authorised 
+2020-06-09 17:04:07.3504||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 88388.3123ms 500 text/plain 
+2020-06-09 17:14:23.2366||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:9000/api/cd/SendChequet application/json 393 
+2020-06-09 17:14:23.2366||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-09 17:14:23.2366||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-09 17:14:23.2366||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CF9A6QG5R:00000001, previousRequestId: no previous request id, message: /api/cd/SendChequet is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-09 17:14:23.2366||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-09 17:14:23.2366||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CF9A6QG5R:00000001, previousRequestId: no previous request id, message: Client has been authenticated for /api/cd/SendChequet 
+2020-06-09 17:14:23.2366||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG5R:00000001, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-09 17:14:23.2366||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG5R:00000001, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-09 17:14:23.2366||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG5R:00000001, previousRequestId: no previous request id, message: /api/cd/SendCheque route does not require user to be authorised 
+2020-06-09 17:14:49.9170||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 26680.4519ms 500 text/plain 
+2020-06-09 17:18:01.9432||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:9000/api/cd/SendChequet application/json 393 
+2020-06-09 17:18:01.9677||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Failed to validate the token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzYW0iLCJqdGkiOiIxOWQwZDc1Mi1jNzA4LTQ3MjAtOGMzNy01NjY5MDQ3MjMwOWEiLCJpYXQiOiI2LzkvMjAyMCAyOjE0OjA1IFBNIiwibmJmIjoxNTkxNzEyMDQ1LCJleHAiOjE1OTE3MTIxNjUsImlzcyI6Imh0dHA6Ly93d3cuYy1zaGFycGNvcm5lci5jb20iLCJhdWQiOiJTYW11ZWwgV2FpbmFpbmEifQ.J0JCg8dwrL-5HEo-J8u4CRMaKhsey4ex_pByI8VgN5s. IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '06/09/2020 14:16:05'
+Current time: '06/09/2020 14:18:01'.
+2020-06-09 17:18:01.9677||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|TestKey was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '06/09/2020 14:16:05'
+Current time: '06/09/2020 14:18:01'. 
+2020-06-09 17:18:01.9677||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CF9A6QG5T:00000001, previousRequestId: no previous request id, message: /api/cd/SendChequet is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-09 17:18:01.9677||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|TestKey was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '06/09/2020 14:16:05'
+Current time: '06/09/2020 14:18:01'. 
+2020-06-09 17:18:01.9677||WARN|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CF9A6QG5T:00000001, previousRequestId: no previous request id, message: Client has NOT been authenticated for /api/cd/SendChequet and pipeline error set. Request for authenticated route /api/cd/SendChequet by  was unauthenticated 
+2020-06-09 17:18:01.9677||WARN|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CF9A6QG5T:00000001, previousRequestId: no previous request id, message: Request for authenticated route /api/cd/SendChequet by  was unauthenticated 
+2020-06-09 17:18:01.9677||WARN|Ocelot.Responder.Middleware.ResponderMiddleware|requestId: 0HM0CF9A6QG5T:00000001, previousRequestId: no previous request id, message: Error Code: UnauthenticatedError Message: Request for authenticated route /api/cd/SendChequet by  was unauthenticated errors found in ResponderMiddleware. Setting error response for request path:/api/cd/SendChequet, request method: POST 
+2020-06-09 17:18:01.9677||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 33.0235ms 401  
+2020-06-09 17:18:27.2693||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:9000/api/cd/SendChequet application/json 393 
+2020-06-09 17:18:27.2693||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-09 17:18:27.2693||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-09 17:18:27.2844||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CF9A6QG5T:00000002, previousRequestId: no previous request id, message: /api/cd/SendChequet is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-09 17:18:27.2844||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-09 17:18:27.2844||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CF9A6QG5T:00000002, previousRequestId: no previous request id, message: Client has been authenticated for /api/cd/SendChequet 
+2020-06-09 17:18:27.2844||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG5T:00000002, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-09 17:18:27.2844||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG5T:00000002, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-09 17:18:27.2844||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG5T:00000002, previousRequestId: no previous request id, message: /api/cd/SendCheque route does not require user to be authorised 
+2020-06-09 17:18:31.0429||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3773.5374ms 200 application/json; charset=utf-8 
+2020-06-09 17:30:37.1072||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:9000/api/cd/SendChequet application/json 393 
+2020-06-09 17:30:37.1955||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Failed to validate the token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzYW0iLCJqdGkiOiJkMzllYzc5Yy05OTQyLTRmNjAtYWFmNS04YzA0NGQ2MzQ3NmYiLCJpYXQiOiI2LzkvMjAyMCAyOjE4OjA1IFBNIiwibmJmIjoxNTkxNzEyMjg1LCJleHAiOjE1OTE3MTI0MDUsImlzcyI6Imh0dHA6Ly93d3cuYy1zaGFycGNvcm5lci5jb20iLCJhdWQiOiJTYW11ZWwgV2FpbmFpbmEifQ.SvULbdtfNGutMeLqqwXn06HAvKOFgI93BqLfwySTJnI. IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '06/09/2020 14:20:05'
+Current time: '06/09/2020 14:30:37'.
+2020-06-09 17:30:37.1955||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|TestKey was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '06/09/2020 14:20:05'
+Current time: '06/09/2020 14:30:37'. 
+2020-06-09 17:30:37.1955||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CF9A6QG5V:00000001, previousRequestId: no previous request id, message: /api/cd/SendChequet is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-09 17:30:37.1955||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|TestKey was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '06/09/2020 14:20:05'
+Current time: '06/09/2020 14:30:37'. 
+2020-06-09 17:30:37.1955||WARN|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CF9A6QG5V:00000001, previousRequestId: no previous request id, message: Client has NOT been authenticated for /api/cd/SendChequet and pipeline error set. Request for authenticated route /api/cd/SendChequet by  was unauthenticated 
+2020-06-09 17:30:37.2003||WARN|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CF9A6QG5V:00000001, previousRequestId: no previous request id, message: Request for authenticated route /api/cd/SendChequet by  was unauthenticated 
+2020-06-09 17:30:37.2003||WARN|Ocelot.Responder.Middleware.ResponderMiddleware|requestId: 0HM0CF9A6QG5V:00000001, previousRequestId: no previous request id, message: Error Code: UnauthenticatedError Message: Request for authenticated route /api/cd/SendChequet by  was unauthenticated errors found in ResponderMiddleware. Setting error response for request path:/api/cd/SendChequet, request method: POST 
+2020-06-09 17:30:37.2003||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 94.6385ms 401  
+2020-06-09 17:31:12.6984||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:9000/api/cd/SendChequet application/json 393 
+2020-06-09 17:31:12.6984||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-09 17:31:12.6984||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-09 17:31:12.6984||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CF9A6QG5V:00000002, previousRequestId: no previous request id, message: /api/cd/SendChequet is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-09 17:31:12.7012||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-09 17:31:12.7012||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CF9A6QG5V:00000002, previousRequestId: no previous request id, message: Client has been authenticated for /api/cd/SendChequet 
+2020-06-09 17:31:12.7012||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG5V:00000002, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-09 17:31:12.7012||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG5V:00000002, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-09 17:31:12.7012||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG5V:00000002, previousRequestId: no previous request id, message: /api/cd/SendCheque route does not require user to be authorised 
+2020-06-09 17:31:26.7769||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 14078.479ms 500 text/plain 
+2020-06-09 17:39:22.6863||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:9000/api/cd/SendChequet application/json 393 
+2020-06-09 17:39:22.6863||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-06-09 17:39:22.6863||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-09 17:39:22.6863||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CF9A6QG61:00000001, previousRequestId: no previous request id, message: /api/cd/SendChequet is an authenticated route. AuthenticationMiddleware checking if client is authenticated 
+2020-06-09 17:39:22.6863||INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: TestKey was successfully authenticated. 
+2020-06-09 17:39:22.6863||INFO|Ocelot.Authentication.Middleware.AuthenticationMiddleware|requestId: 0HM0CF9A6QG61:00000001, previousRequestId: no previous request id, message: Client has been authenticated for /api/cd/SendChequet 
+2020-06-09 17:39:22.6863||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG61:00000001, previousRequestId: no previous request id, message: route is authenticated scopes must be checked 
+2020-06-09 17:39:22.6863||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG61:00000001, previousRequestId: no previous request id, message: user scopes is authorised calling next authorisation checks 
+2020-06-09 17:39:22.6863||INFO|Ocelot.Authorisation.Middleware.AuthorisationMiddleware|requestId: 0HM0CF9A6QG61:00000001, previousRequestId: no previous request id, message: /api/cd/SendCheque route does not require user to be authorised 
+2020-06-09 17:39:29.4174||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6731.1312ms 500 text/plain 

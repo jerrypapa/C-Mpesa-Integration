@@ -1,0 +1,108 @@
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\AuthMpesaApi.exe
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\TransactionStatusApi.exe
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\TransactionStatusApi.deps.json
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\TransactionStatusApi.runtimeconfig.json
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\TransactionStatusApi.runtimeconfig.dev.json
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\TransactionStatusApi.dll
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\TransactionStatusApi.pdb
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\MediatR.dll
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\RestSharp.dll
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\AuthMpesaApi.dll
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\AuthMpesaApi.pdb
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\TransactionStatusApi.csprojAssemblyReference.cache
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\TransactionStatusApi.AssemblyInfoInputs.cache
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\TransactionStatusApi.AssemblyInfo.cs
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\TransactionStatusApi.csproj.CoreCompileInputs.cache
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\TransactionStatusApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\TransactionStatusApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\TransactionStatusApi.RazorTargetAssemblyInfo.cache
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\TransactionStatusApi.csproj.CopyComplete
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\staticwebassets\TransactionStatusApi.StaticWebAssets.Manifest.cache
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\staticwebassets\TransactionStatusApi.StaticWebAssets.xml
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\TransactionStatusApi.dll
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\TransactionStatusApi.pdb
+C:\Users\samth\source\repos\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\TransactionStatusApi.genruntimeconfig.cache
+D:\Payments\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Payments\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Payments\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Payments\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\TransactionStatusApi.exe
+D:\Payments\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\AuthMpesaApi.exe
+D:\Payments\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\TransactionStatusApi.deps.json
+D:\Payments\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\TransactionStatusApi.runtimeconfig.json
+D:\Payments\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\TransactionStatusApi.runtimeconfig.dev.json
+D:\Payments\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\TransactionStatusApi.dll
+D:\Payments\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\TransactionStatusApi.pdb
+D:\Payments\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\Payments\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Payments\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\MediatR.dll
+D:\Payments\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\Payments\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\Payments\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Payments\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\RestSharp.dll
+D:\Payments\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\Payments\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Payments\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Payments\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\AuthMpesaApi.dll
+D:\Payments\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\AuthMpesaApi.pdb
+D:\Payments\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\TransactionStatusApi.csprojAssemblyReference.cache
+D:\Payments\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\TransactionStatusApi.AssemblyInfoInputs.cache
+D:\Payments\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\TransactionStatusApi.AssemblyInfo.cs
+D:\Payments\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\TransactionStatusApi.RazorTargetAssemblyInfo.cache
+D:\Payments\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\TransactionStatusApi.csproj.CopyComplete
+D:\Payments\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\staticwebassets\TransactionStatusApi.StaticWebAssets.Manifest.cache
+D:\Payments\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\staticwebassets\TransactionStatusApi.StaticWebAssets.xml
+D:\Payments\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\TransactionStatusApi.dll
+D:\Payments\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\TransactionStatusApi.pdb
+D:\Payments\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\TransactionStatusApi.genruntimeconfig.cache
+D:\Payments\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\FluentValidation.dll
+D:\Payments\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+D:\Payments\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+D:\Great Vision\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Great Vision\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Great Vision\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Great Vision\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\AuthMpesaApi.exe
+D:\Great Vision\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\TransactionStatusApi.exe
+D:\Great Vision\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\TransactionStatusApi.deps.json
+D:\Great Vision\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\TransactionStatusApi.runtimeconfig.json
+D:\Great Vision\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\TransactionStatusApi.runtimeconfig.dev.json
+D:\Great Vision\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\TransactionStatusApi.dll
+D:\Great Vision\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\TransactionStatusApi.pdb
+D:\Great Vision\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\Great Vision\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Great Vision\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\FluentValidation.dll
+D:\Great Vision\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+D:\Great Vision\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+D:\Great Vision\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\MediatR.dll
+D:\Great Vision\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\Great Vision\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\Great Vision\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Great Vision\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\RestSharp.dll
+D:\Great Vision\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\Great Vision\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Great Vision\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Great Vision\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\AuthMpesaApi.dll
+D:\Great Vision\MpesaApi\AccountBalance\bin\Debug\netcoreapp3.1\AuthMpesaApi.pdb
+D:\Great Vision\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\TransactionStatusApi.csprojAssemblyReference.cache
+D:\Great Vision\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\TransactionStatusApi.AssemblyInfoInputs.cache
+D:\Great Vision\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\TransactionStatusApi.AssemblyInfo.cs
+D:\Great Vision\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\TransactionStatusApi.csproj.CoreCompileInputs.cache
+D:\Great Vision\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\TransactionStatusApi.MvcApplicationPartsAssemblyInfo.cs
+D:\Great Vision\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\TransactionStatusApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Great Vision\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\TransactionStatusApi.RazorTargetAssemblyInfo.cache
+D:\Great Vision\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\TransactionStatusApi.csproj.CopyComplete
+D:\Great Vision\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\staticwebassets\TransactionStatusApi.StaticWebAssets.Manifest.cache
+D:\Great Vision\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\staticwebassets\TransactionStatusApi.StaticWebAssets.xml
+D:\Great Vision\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\TransactionStatusApi.dll
+D:\Great Vision\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\TransactionStatusApi.pdb
+D:\Great Vision\MpesaApi\AccountBalance\obj\Debug\netcoreapp3.1\TransactionStatusApi.genruntimeconfig.cache
